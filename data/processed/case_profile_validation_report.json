@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "source_document_verified": true,
+  "missing_required_fields": [],
+  "unknown_fields_preserved_null": true,
+  "extracted_requirements_count": 6,
+  "validation_notes": "Case profile contains zero fabricated facts; unknown fields remain explicitly null."
+}

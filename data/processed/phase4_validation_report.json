@@ -1,0 +1,19 @@
+{
+  "case_profile_status": "PASSED",
+  "risk_requirements_status": "PASSED",
+  "policy_fit_status": "PASSED",
+  "recommendation_status": "PASSED",
+  "pitch_content_status": "PASSED",
+  "audit_status": "PASSED",
+  "ppt_generation_status": "PASSED",
+  "api_status": "PASSED",
+  "frontend_status": "PASSED",
+  "total_claims_audited": 25,
+  "pass_count": 25,
+  "review_count": 0,
+  "fail_count": 0,
+  "unsupported_claim_count": 0,
+  "canonical_matrix_sha256": "b6f985146744faed328fd31218607802a5ddd2239e1bcbd892e4c86a0b8f27e5",
+  "phase1_2_3_integrity_status": "FROZEN_AND_UNTOUCHED",
+  "overall_status": "PASSED"
+}

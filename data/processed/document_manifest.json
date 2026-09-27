@@ -1,0 +1,79 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_abhi_product_brochure_85cdd5a54cc5",
+      "document_name": "ABHI Activ One Product Brochure",
+      "source_filename": "ABHI Product Brochure.pdf",
+      "source_path": "data\\raw\\ABHI Product Brochure.pdf",
+      "category": "policy_evidence",
+      "included_in_policy_corpus": true,
+      "page_count_expected": 2,
+      "page_count_processed": 2,
+      "pages_missing": [],
+      "processing_status": "success",
+      "file_size_bytes": 2765016,
+      "file_sha256": "85cdd5a54cc5d7bda369332eeb4987540d7d29c491a3ce5a3fb80c2a0aff8372",
+      "warnings": []
+    },
+    {
+      "document_id": "doc_care_health_product_brochure_32ba87044cf9",
+      "document_name": "Care Supreme Product Brochure",
+      "source_filename": "Care Health Product Brochure.pdf",
+      "source_path": "data\\raw\\Care Health Product Brochure.pdf",
+      "category": "policy_evidence",
+      "included_in_policy_corpus": true,
+      "page_count_expected": 4,
+      "page_count_processed": 4,
+      "pages_missing": [],
+      "processing_status": "success",
+      "file_size_bytes": 1672639,
+      "file_sha256": "32ba87044cf98f1a7b446b24024c6fb3b8738fcb1f7ccd6bf34a78a9ab2cdf5b",
+      "warnings": []
+    },
+    {
+      "document_id": "doc_hdfc_product_brochure_706e4039bf8a",
+      "document_name": "HDFC ERGO Optima Secure+ Brochure",
+      "source_filename": "HDFC Product Brochure.pdf",
+      "source_path": "data\\raw\\HDFC Product Brochure.pdf",
+      "category": "policy_evidence",
+      "included_in_policy_corpus": true,
+      "page_count_expected": 16,
+      "page_count_processed": 16,
+      "pages_missing": [],
+      "processing_status": "success",
+      "file_size_bytes": 554069,
+      "file_sha256": "706e4039bf8aa210dc09c76d6190e764355ebd7dc86445f9a4c895dee6d7c4af",
+      "warnings": [
+        "LOW_TEXT_GRAPHIC_COVER: Page 1 in HDFC Product Brochure.pdf contains only 62 characters"
+      ]
+    },
+    {
+      "document_id": "doc_niva_bupa_product_brochure_89d8a54c81a2",
+      "document_name": "Niva Bupa ReAssure 2.0 Brochure",
+      "source_filename": "Niva Bupa Product Brochure.pdf",
+      "source_path": "data\\raw\\Niva Bupa Product Brochure.pdf",
+      "category": "policy_evidence",
+      "included_in_policy_corpus": true,
+      "page_count_expected": 2,
+      "page_count_processed": 2,
+      "pages_missing": [],
+      "processing_status": "success",
+      "file_size_bytes": 2360781,
+      "file_sha256": "89d8a54c81a23bd47c1fb577647e57b7250c450e6fa93f5751aa7b373e0a6c3a",
+      "warnings": [
+        "LOW_TEXT_GRAPHIC_COVER: Page 1 in Niva Bupa Product Brochure.pdf contains only 19 characters"
+      ]
+    }
+  ],
+  "excluded_documents": [
+    {
+      "source_filename": "Marsh - Internship Case Study.pdf",
+      "source_path": "Marsh - Internship Case Study.pdf",
+      "category": "case_brief",
+      "included_in_policy_corpus": false,
+      "file_sha256": "0f28ca5de1e8ef304978ad667f3bc859f79b030b2a771025e47d135a4ad69e08",
+      "file_size_bytes": 561905,
+      "reason": "Exclusion rule: Marsh Internship Case Brief / Specification document"
+    }
+  ]
+}

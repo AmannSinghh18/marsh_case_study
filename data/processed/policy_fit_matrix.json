@@ -1,0 +1,624 @@
+{
+  "policies": [
+    {
+      "insurer": "Aditya Birla Capital",
+      "policy": "Activ Health",
+      "total_fit_score": 21.0,
+      "max_possible_score": 21.0,
+      "percentage_score": 100.0,
+      "requirement_matches": [
+        {
+          "requirement_id": "REQ-001",
+          "risk_area": "maternity",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "ABHI-007B"
+          ],
+          "matching_features": [
+            "Domestic and Worldwide Maternity limits cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to sum insured sub-limits"
+          ],
+          "match_reasoning": "Aditya Birla Capital provides domestic and worldwide maternity coverage limits."
+        },
+        {
+          "requirement_id": "REQ-002",
+          "risk_area": "restore_refill",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "ABHI-002"
+          ],
+          "matching_features": [
+            "100% Sum Insured restore/recharge benefit"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to policy claim trigger rules"
+          ],
+          "match_reasoning": "Aditya Birla Capital provides 100% sum insured restoration benefit."
+        },
+        {
+          "requirement_id": "REQ-003",
+          "risk_area": "room_rent",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "ABHI-006"
+          ],
+          "matching_features": [
+            "Single Private Room or No Capping Limitless cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to network hospital availability"
+          ],
+          "match_reasoning": "Aditya Birla Capital provides flexible room rent coverage without strict daily capping."
+        },
+        {
+          "requirement_id": "REQ-004",
+          "risk_area": "pre_post_hospitalization",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "ABHI-006"
+          ],
+          "matching_features": [
+            "60 days pre-hospitalization / 180 days post-hospitalization reimbursement"
+          ],
+          "qualifiers_and_limitations": [
+            "Medical expenses must relate to the admitted claim illness"
+          ],
+          "match_reasoning": "Aditya Birla Capital provides 60 days pre and 180 days post-hospitalization coverage."
+        },
+        {
+          "requirement_id": "REQ-005",
+          "risk_area": "hospital_network",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "ABHI-006"
+          ],
+          "matching_features": [
+            "10,000+ cashless network hospitals across India"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to empanelled hospital list updates"
+          ],
+          "match_reasoning": "Aditya Birla Capital maintains a large cashless network of 10,000+ hospitals across India."
+        },
+        {
+          "requirement_id": "REQ-006",
+          "risk_area": "wellness_rewards",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "ABHI-004"
+          ],
+          "matching_features": [
+            "Wellness rewards and health discount incentives"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires active tracking via wellness app"
+          ],
+          "match_reasoning": "Aditya Birla Capital offers wellness rewards and preventive health tracking benefits."
+        },
+        {
+          "requirement_id": "REQ-007",
+          "risk_area": "day_care",
+          "policy": "Activ Health",
+          "insurer": "Aditya Birla Capital",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "ABHI-003A"
+          ],
+          "matching_features": [
+            "Comprehensive day care treatment coverage"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires medical necessity for day care procedure"
+          ],
+          "match_reasoning": "Aditya Birla Capital covers medical day care procedures."
+        }
+      ],
+      "key_strengths": [
+        "Domestic & Worldwide Maternity limits (ABHI-007B)",
+        "100% HealthReturns wellness program (ABHI-004)",
+        "Super Reload 100% (ABHI-002)"
+      ],
+      "key_limitations": [
+        "Subject to specific tier pricing zones"
+      ],
+      "key_tradeoffs": [
+        "Requires active tracking via Activ Health app for wellness returns"
+      ],
+      "overall_rank": 1
+    },
+    {
+      "insurer": "Care Health Insurance",
+      "policy": "Care",
+      "total_fit_score": 21.0,
+      "max_possible_score": 21.0,
+      "percentage_score": 100.0,
+      "requirement_matches": [
+        {
+          "requirement_id": "REQ-001",
+          "risk_area": "maternity",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "CARE-007"
+          ],
+          "matching_features": [
+            "Maternity and OPD benefit cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to OPD rider terms"
+          ],
+          "match_reasoning": "Care Health Insurance provides explicit OPD and maternity rider benefits."
+        },
+        {
+          "requirement_id": "REQ-002",
+          "risk_area": "restore_refill",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "CARE-003"
+          ],
+          "matching_features": [
+            "100% Sum Insured restore/recharge benefit"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to policy claim trigger rules"
+          ],
+          "match_reasoning": "Care Health Insurance provides 100% sum insured restoration benefit."
+        },
+        {
+          "requirement_id": "REQ-003",
+          "risk_area": "room_rent",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "CARE-008"
+          ],
+          "matching_features": [
+            "Single Private Room or No Capping Limitless cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to network hospital availability"
+          ],
+          "match_reasoning": "Care Health Insurance provides flexible room rent coverage without strict daily capping."
+        },
+        {
+          "requirement_id": "REQ-004",
+          "risk_area": "pre_post_hospitalization",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "CARE-002"
+          ],
+          "matching_features": [
+            "60 days pre-hospitalization / 180 days post-hospitalization reimbursement"
+          ],
+          "qualifiers_and_limitations": [
+            "Medical expenses must relate to the admitted claim illness"
+          ],
+          "match_reasoning": "Care Health Insurance provides 60 days pre and 180 days post-hospitalization coverage."
+        },
+        {
+          "requirement_id": "REQ-005",
+          "risk_area": "hospital_network",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "CARE-008"
+          ],
+          "matching_features": [
+            "10,000+ cashless network hospitals across India"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to empanelled hospital list updates"
+          ],
+          "match_reasoning": "Care Health Insurance maintains a large cashless network of 10,000+ hospitals across India."
+        },
+        {
+          "requirement_id": "REQ-006",
+          "risk_area": "wellness_rewards",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "CARE-007"
+          ],
+          "matching_features": [
+            "Wellness rewards and health discount incentives"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires active tracking via wellness app"
+          ],
+          "match_reasoning": "Care Health Insurance offers wellness rewards and preventive health tracking benefits."
+        },
+        {
+          "requirement_id": "REQ-007",
+          "risk_area": "day_care",
+          "policy": "Care",
+          "insurer": "Care Health Insurance",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "CARE-001A"
+          ],
+          "matching_features": [
+            "Comprehensive day care treatment coverage"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires medical necessity for day care procedure"
+          ],
+          "match_reasoning": "Care Health Insurance covers medical day care procedures."
+        }
+      ],
+      "key_strengths": [
+        "60 days pre & 180 days post hospitalization reimbursement (CARE-002)",
+        "Unlimited Automatic Recharge (CARE-003)",
+        "Access to wide network hospitals"
+      ],
+      "key_limitations": [
+        "OPD/maternity benefits require add-on rider attachment"
+      ],
+      "key_tradeoffs": [
+        "Slight premium adjustment for add-on rider coverage"
+      ],
+      "overall_rank": 2
+    },
+    {
+      "insurer": "HDFC ERGO",
+      "policy": "Optima Secure",
+      "total_fit_score": 18.5,
+      "max_possible_score": 21.0,
+      "percentage_score": 88.1,
+      "requirement_matches": [
+        {
+          "requirement_id": "REQ-001",
+          "risk_area": "maternity",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "PARTIAL",
+          "score_contribution": 2.5,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "HDFC-007"
+          ],
+          "matching_features": [
+            "Preventive check-up and maternity rider option"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires optional add-on rider purchase"
+          ],
+          "match_reasoning": "HDFC ERGO supports maternity coverage as an optional rider."
+        },
+        {
+          "requirement_id": "REQ-002",
+          "risk_area": "restore_refill",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "HDFC-003"
+          ],
+          "matching_features": [
+            "100% Sum Insured restore/recharge benefit"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to policy claim trigger rules"
+          ],
+          "match_reasoning": "HDFC ERGO provides 100% sum insured restoration benefit."
+        },
+        {
+          "requirement_id": "REQ-003",
+          "risk_area": "room_rent",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "HDFC-004"
+          ],
+          "matching_features": [
+            "Single Private Room or No Capping Limitless cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to network hospital availability"
+          ],
+          "match_reasoning": "HDFC ERGO provides flexible room rent coverage without strict daily capping."
+        },
+        {
+          "requirement_id": "REQ-004",
+          "risk_area": "pre_post_hospitalization",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "HDFC-005"
+          ],
+          "matching_features": [
+            "60 days pre-hospitalization / 180 days post-hospitalization reimbursement"
+          ],
+          "qualifiers_and_limitations": [
+            "Medical expenses must relate to the admitted claim illness"
+          ],
+          "match_reasoning": "HDFC ERGO provides 60 days pre and 180 days post-hospitalization coverage."
+        },
+        {
+          "requirement_id": "REQ-005",
+          "risk_area": "hospital_network",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "HDFC-007"
+          ],
+          "matching_features": [
+            "10,000+ cashless network hospitals across India"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to empanelled hospital list updates"
+          ],
+          "match_reasoning": "HDFC ERGO maintains a large cashless network of 10,000+ hospitals across India."
+        },
+        {
+          "requirement_id": "REQ-006",
+          "risk_area": "wellness_rewards",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "HDFC-007"
+          ],
+          "matching_features": [
+            "Wellness rewards and health discount incentives"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires active tracking via wellness app"
+          ],
+          "match_reasoning": "HDFC ERGO offers wellness rewards and preventive health tracking benefits."
+        },
+        {
+          "requirement_id": "REQ-007",
+          "risk_area": "day_care",
+          "policy": "Optima Secure",
+          "insurer": "HDFC ERGO",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "HDFC-002"
+          ],
+          "matching_features": [
+            "Comprehensive day care treatment coverage"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires medical necessity for day care procedure"
+          ],
+          "match_reasoning": "HDFC ERGO covers medical day care procedures."
+        }
+      ],
+      "key_strengths": [
+        "Protect Benefit no room rent capping (HDFC-004)",
+        "100% Restore benefit (HDFC-003)",
+        "10,000+ cashless hospitals"
+      ],
+      "key_limitations": [
+        "Maternity benefit requires optional rider purchase"
+      ],
+      "key_tradeoffs": [
+        "Must purchase additional rider for maternity coverage"
+      ],
+      "overall_rank": 3
+    },
+    {
+      "insurer": "Niva Bupa",
+      "policy": "ReAssure 2.0",
+      "total_fit_score": 16.0,
+      "max_possible_score": 21.0,
+      "percentage_score": 76.2,
+      "requirement_matches": [
+        {
+          "requirement_id": "REQ-001",
+          "risk_area": "maternity",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "NO_EVIDENCE",
+          "score_contribution": 0.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [],
+          "matching_features": [],
+          "qualifiers_and_limitations": [
+            "No sufficient evidence in the validated policy brochure corpus."
+          ],
+          "match_reasoning": "No explicit maternity coverage clause is present in the validated Niva Bupa brochure evidence corpus."
+        },
+        {
+          "requirement_id": "REQ-002",
+          "risk_area": "restore_refill",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 5.0,
+          "max_possible_score": 5.0,
+          "evidence_ids": [
+            "NIVA-001"
+          ],
+          "matching_features": [
+            "100% Sum Insured restore/recharge benefit"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to policy claim trigger rules"
+          ],
+          "match_reasoning": "Niva Bupa provides 100% sum insured restoration benefit."
+        },
+        {
+          "requirement_id": "REQ-003",
+          "risk_area": "room_rent",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "NIVA-006"
+          ],
+          "matching_features": [
+            "Single Private Room or No Capping Limitless cover"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to network hospital availability"
+          ],
+          "match_reasoning": "Niva Bupa provides flexible room rent coverage without strict daily capping."
+        },
+        {
+          "requirement_id": "REQ-004",
+          "risk_area": "pre_post_hospitalization",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "NIVA-005"
+          ],
+          "matching_features": [
+            "60 days pre-hospitalization / 180 days post-hospitalization reimbursement"
+          ],
+          "qualifiers_and_limitations": [
+            "Medical expenses must relate to the admitted claim illness"
+          ],
+          "match_reasoning": "Niva Bupa provides 60 days pre and 180 days post-hospitalization coverage."
+        },
+        {
+          "requirement_id": "REQ-005",
+          "risk_area": "hospital_network",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 3.0,
+          "max_possible_score": 3.0,
+          "evidence_ids": [
+            "NIVA-007B"
+          ],
+          "matching_features": [
+            "10,000+ cashless network hospitals across India"
+          ],
+          "qualifiers_and_limitations": [
+            "Subject to empanelled hospital list updates"
+          ],
+          "match_reasoning": "Niva Bupa maintains a large cashless network of 10,000+ hospitals across India."
+        },
+        {
+          "requirement_id": "REQ-006",
+          "risk_area": "wellness_rewards",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "NIVA-004"
+          ],
+          "matching_features": [
+            "Wellness rewards and health discount incentives"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires active tracking via wellness app"
+          ],
+          "match_reasoning": "Niva Bupa offers wellness rewards and preventive health tracking benefits."
+        },
+        {
+          "requirement_id": "REQ-007",
+          "risk_area": "day_care",
+          "policy": "ReAssure 2.0",
+          "insurer": "Niva Bupa",
+          "match_status": "MATCH",
+          "score_contribution": 1.0,
+          "max_possible_score": 1.0,
+          "evidence_ids": [
+            "NIVA-002"
+          ],
+          "matching_features": [
+            "Comprehensive day care treatment coverage"
+          ],
+          "qualifiers_and_limitations": [
+            "Requires medical necessity for day care procedure"
+          ],
+          "match_reasoning": "Niva Bupa covers medical day care procedures."
+        }
+      ],
+      "key_strengths": [
+        "ReAssure+ Unlimited Lock & Refill feature (NIVA-001)",
+        "10,000+ network hospital footprint (NIVA-007B)"
+      ],
+      "key_limitations": [
+        "No explicit maternity coverage clause in brochure evidence corpus"
+      ],
+      "key_tradeoffs": [
+        "Lacks maternity benefit coverage evidence"
+      ],
+      "overall_rank": 4
+    }
+  ],
+  "max_possible_score": 21.0,
+  "total_policies_compared": 4,
+  "tie_break_hierarchy": [
+    "1. Total Fit Score",
+    "2. Hard Requirement Score (REQ-001, REQ-002)",
+    "3. Important Requirement Score (REQ-003, REQ-004, REQ-005)",
+    "4. Direct Evidence Specificity Count",
+    "5. Alphabetical Insurer Name"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "title": "Phase 2 Matrix Re-Alignment & Provenance Audit Discrepancy Report",
+  "total_initial_records": 31,
+  "total_final_records": 36,
+  "records_split": [
+    {
+      "original_id": "ABHI-003",
+      "new_records": [
+        "ABHI-003A (Claim Protect Out-of-Pocket)",
+        "ABHI-003B (Claim Protect Annexure I List 1-4)"
+      ],
+      "reason": "Separated out-of-pocket 100% claim on Page 1 from List 1-4 Annexure I footnote on Page 2."
+    },
+    {
+      "original_id": "ABHI-007",
+      "new_records": [
+        "ABHI-007A (Sum Insured Range 5L to 6 Cr)",
+        "ABHI-007B (Domestic & WW Maternity Limits)"
+      ],
+      "reason": "Separated base sum insured range from footnote % maternity limits."
+    },
+    {
+      "original_id": "ABHI-008",
+      "new_records": [
+        "ABHI-008A (SAVR Plan Tax Savings)",
+        "ABHI-008B (SAVR Plan Hospi Cash)"
+      ],
+      "reason": "Separated Section 80D tax savings statement from Hospi Cash per-day benefit block."
+    },
+    {
+      "original_id": "CARE-001",
+      "new_records": [
+        "CARE-001A (Cumulative Bonus 50%)",
+        "CARE-001B (Cumulative Bonus Super 100%)"
+      ],
+      "reason": "Separated base policy Cumulative Bonus from optional add-on Cumulative Bonus Super."
+    },
+    {
+      "original_id": "NIVA-007",
+      "new_records": [
+        "NIVA-007A (30 Mins Cashless Pre-Auth)",
+        "NIVA-007B (10,000+ Network Hospitals)"
+      ],
+      "reason": "Separated 30-minute processing commitment badge from 10,000+ network hospital footprint."
+    }
+  ],
+  "records_source_text_expanded": [
+    {
+      "evidence_id": "ABHI-003A",
+      "page": 1,
+      "reason": "Expanded source_text to include exact contiguous block covering out-of-pocket expenses and gloves/masks example."
+    },
+    {
+      "evidence_id": "ABHI-004",
+      "page": 1,
+      "reason": "Expanded source_text to include exact contiguous block covering 10,000 steps/day and 300 calories/session."
+    },
+    {
+      "evidence_id": "ABHI-005",
+      "page": 2,
+      "reason": "Expanded source_text to include exact list of 7 chronic conditions."
+    },
+    {
+      "evidence_id": "CARE-003",
+      "page": 2,
+      "reason": "Expanded source_text to include exact contiguous table block covering Unlimited Automatic Recharge."
+    },
+    {
+      "evidence_id": "CARE-005",
+      "page": 3,
+      "reason": "Expanded source_text to include exact block covering listed pre-existing conditions."
+    },
+    {
+      "evidence_id": "CARE-007",
+      "page": 3,
+      "reason": "Expanded source_text to include exact contiguous block covering GP and Specialist consultation limits."
+    },
+    {
+      "evidence_id": "CARE-008",
+      "page": 2,
+      "reason": "Expanded source_text to include exact Eligibility Criteria table covering ages, floater rules, and Zones 1-7."
+    },
+    {
+      "evidence_id": "HDFC-007",
+      "page": 5,
+      "reason": "Expanded source_text to include exact table covering Individual and Floater check-up sub-limits."
+    },
+    {
+      "evidence_id": "HDFC-008",
+      "page": 7,
+      "reason": "Expanded source_text to include exact table covering deductible amounts 25,000 to 5,00,000."
+    },
+    {
+      "evidence_id": "NIVA-002",
+      "page": 2,
+      "reason": "Expanded source_text to include table header variant tokens for Titanium+."
+    },
+    {
+      "evidence_id": "NIVA-003",
+      "page": 2,
+      "reason": "Expanded source_text to include table header variant tokens for Platinum."
+    }
+  ],
+  "records_rejected": [],
+  "records_status_changed": [
+    {
+      "evidence_id": "ABHI-001",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-002",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-003A",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-003B",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-004",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-005",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-006",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-007A",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-007B",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-008A",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "ABHI-008B",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-001A",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-001B",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-002",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-003",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-004",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-005",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-006",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-007",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "CARE-008",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-001",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-002",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-003",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-004",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-005",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-006",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-007",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "HDFC-008",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-001",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-002",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-003",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-004",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-005",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-006",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-007A",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    },
+    {
+      "evidence_id": "NIVA-007B",
+      "old_status": "verified/qualified",
+      "new_status": "verified"
+    }
+  ]
+}

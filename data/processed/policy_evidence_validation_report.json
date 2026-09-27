@@ -1,0 +1,46 @@
+{
+  "overall_status": "PASSED",
+  "total_records": 36,
+  "total_canonical_corpus_records": 36,
+  "insurer_record_counts": {
+    "Aditya Birla Capital": 11,
+    "Care Health Insurance": 9,
+    "HDFC ERGO": 8,
+    "Niva Bupa": 8
+  },
+  "evidence_strength_breakdown": {
+    "direct": 36,
+    "qualified": 0,
+    "derived": 0,
+    "review_required": 0
+  },
+  "review_status_breakdown": {
+    "verified": 36,
+    "review_required": 0,
+    "rejected": 0
+  },
+  "category_breakdown": {
+    "bonus": 6,
+    "deductible": 1,
+    "waiting_period": 1,
+    "chronic_condition": 2,
+    "network": 2,
+    "ambulance": 1,
+    "recharge_restore": 4,
+    "claim_service": 1,
+    "room_rent": 2,
+    "eligibility": 1,
+    "wellness": 3,
+    "add_on": 2,
+    "sum_insured": 1,
+    "maternity": 1,
+    "benefit": 1,
+    "coverage": 1,
+    "hospitalization": 1,
+    "pre_post_hospitalization": 2,
+    "non_medical_expenses": 3
+  },
+  "checklists_status": "PASSED",
+  "warnings": [],
+  "errors": []
+}

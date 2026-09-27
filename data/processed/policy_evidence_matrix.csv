@@ -1,0 +1,449 @@
+evidence_id,insurer,policy,variant,category,feature,claim,value,unit,conditions,limitations,eligibility,waiting_period,is_optional,addon_name,claim_type,source_document,source_page,source_section,source_text,evidence_strength,derived_from,derivation,review_status,review_notes,included_in_canonical_corpus
+ABHI-001,Aditya Birla Capital,Activ One,,bonus,Super Credit Accelerating Cover,"Sum Insured inflates to 6 times the size of Base Sum Insured by the 6th year of policy (2X Year 2, 3X Year 3, 4X Year 4, 5X Year 5, 6X Year 6) irrespective of whether you claim.",6X,times Base Sum Insured,Irrespective of whether you claim.,Inflates up to 6 times of Base Sum Insured by 6th year.,,,False,,direct_benefit,ABHI Product Brochure.pdf,2,THE ACCELERATING ONE,"2X 3X 4X 5X 6X
+YEAR 2
+YEAR 3
+YEAR 4
+YEAR 5
+YEAR 6
+Scan to meet THE ACCELERATING ONE
+Your cover will keep getting stronger and more powerful with
+every passing year.
+With our Super Credit feature, your Sum Insured inﬂates to 6
+times the size of your Base Sum Insured by the 6th year of your
+policy irrespective of whether you claim!",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-002,Aditya Birla Capital,Activ One,,recharge_restore,Super Reload,Refills cover up to 100% of Base Sum Insured unlimited times in a policy year upon exhaustion for next claim.,100%,Base Sum Insured,For next claim when Sum Insured is exhausted.,Unlimited refills up to base Sum Insured.,,,False,,direct_benefit,ABHI Product Brochure.pdf,2,THE FULFILLING ONE,"With Activ One, you will never run out of
+your health insurance coverage, as we will
+reﬁll your cover up to 100% of your Base
+Sum Insured unlimited times in a policy year.
+SUM INSURED EXHAUSTED?
+SUPER RELOAD~
+FOR YOUR NEXT CLAIM
+REFILLS IT
+TO 100%",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-003A,Aditya Birla Capital,Activ One,,non_medical_expenses,Claim Protect Out-of-Pocket Expenses,"Claim Protect feature takes care of 100% out-of-pocket non-medical expenses such as gloves, cotton, face masks.",100%,out-of-pocket non-medical expenses,Coverage for non-medical expenses generally not paid by insurers.,,,,False,,direct_benefit,ABHI Product Brochure.pdf,1,THE CARING ONE,"In times of need, it may happen that other health insurance
+policies may not cover your entire hospital bill as there may be
+some non-medical out-of-pocket expenses which are generally
+not paid by insurers, such as gloves, cotton, face masks, etc. Due
+to this, you may end up paying 10-20% of your hospital bills from
+your own pocket.
+Want to know how Activ One can offer our
+customers complete peace of mindʎ
+WHAT ELSE MAKES ACTIV ONE
+DIFFERENT?
+HEARD OF A HEALTH
+INSURANCE THAT HELPS
+YOU EARN UP TO
+EVERY YEAR EVEN IF YOU
+CLAIM, WITH WHICH YOU
+CAN PAY YOUR$ :
+100% HealthReturnsTM*
+Renewal premiums
+(yes, you can be premium-free!)
+Medical bills
+Diagnostic test costs
+Cost for health
+emergencies
+How can you earn HealthReturnsTM you askʎ
+THAT’S WHY
+WE CREATED A POOL OF
+FOR YOU!
+UNLIMITED
+COVERAGE
+Whether it is about
+good health assurance or
+a good health insurance,
+unlimited beneﬁts are
+always a delight!
+Want to know how Activ One can make
+your coverage limitless+ʎ
+Go ahead and pick your family’s comfort
+over ﬁnancial worries!
+NO CAPPING^
+on hospitalization expenses, procedures &
+beneﬁts such as room rent, ICU charges,
+road ambulance cover, day care treatments,
+organ donor expenses, and a lot more, up to
+your Base Sum Insured.
+Scan to meet THE LIMITLESS+ ONE
+Get up to 100% of your hospital
+bills covered with us (up to your
+Sum Insured), for a worry-free
+experience if and when you
+have to claim!
+Scan to meet THE CARING ONE
+feature comes to your rescue and
+takes care of 100% out-of-pocket
+expenses!
+CLAIM PROTECT#
+Our",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 1.,True
+ABHI-003B,Aditya Birla Capital,Activ One,,non_medical_expenses,Claim Protect Non-Medical List 1-4,"Claim Protect covers non-medical expenses as per List 1, 2, 3, 4 under Annexure I of the Policy Wording for items like gloves, gown, face mask and more.",,"List 1, 2, 3, 4 Annexure I","Coverage for non-medical expenses as per List 1, 2, 3, 4 under Annexure I of Policy Wording.","For items like gloves, gown, face mask and more.",,,False,,direct_benefit,ABHI Product Brochure.pdf,2,Footnote Rules,"#Claim Protect: Coverage for non-medical expenses (as per List 1, 2, 3, 4 under Annexure I of the Policy Wording), for items like gloves, gown, face mask and more.",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-004,Aditya Birla Capital,Activ One,,wellness,100% HealthReturns,"Earn up to 100% HealthReturns by walking 10,000 steps a day or burning 300 calories per session synced via Activ Health app.",100%,HealthReturns,"Walk 10,000 steps a day or burn 300 calories per session synced via Activ Health app.",Up to 100% HealthReturns.,,,False,,direct_benefit,ABHI Product Brochure.pdf,1,THE REWARDING ONE,"Download our
+Activ Health app
+Sync app and walk 10,000 steps a day
+ or burn 300 calories per session
+Tadaa! You just earned
+HealthReturnsTM for yourself!
+Scan to meet THE REWARDING ONE
+WITH ACTIV ONE, STAY ACTIVE
+& HEALTHY TO EARN UP TO
+100% HealthReturnsTM*",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 1.,True
+ABHI-005,Aditya Birla Capital,Activ One,,chronic_condition,ABCD++ Day 1 Chronic Care Cover,"Day 1 cover with zero waiting period for listed 7 chronic conditions (Asthma, High Blood Pressure, High Cholesterol, Diabetes, COPD, Obesity, Coronary Artery Disease with PTCA done prior to 1 year).",7,listed chronic conditions,"Applicable for Asthma, High Blood Pressure, High Cholesterol, Diabetes, COPD, Obesity, CAD with PTCA prior to 1 year.",CAD requires PTCA done prior to 1 year.,,zero waiting period,False,,waiting_period,ABHI Product Brochure.pdf,2,THE EMPOWERING ONE,"ACTIV ONE ALSO STRIVES TO MAKE
+HEALTH & HEALTH INSURANCE MORE
+• Asthma
+• High Blood Pressure
+• High Cholesterol
+• Diabetes
+• Chronic Obstructive Pulmonary Disease
+• Obesity
+• Coronary Artery Disease (PTCA done prior to 1 year)
+Now get Day 1 cover for listed 7 chronic conditions
+with zero waiting period:
+INCLUSIVE AND
+EMPOWERING WITH
+ABCD++",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-006,Aditya Birla Capital,Activ One,,room_rent,No Capping Limitless Cover,"No capping on hospitalization expenses, room rent, ICU charges, road ambulance cover, day care treatments, and organ donor expenses up to Base Sum Insured.",,Base Sum Insured,Covered up to Base Sum Insured.,"No capping on room rent, ICU charges, road ambulance, day care, organ donor expenses.",,,False,,direct_benefit,ABHI Product Brochure.pdf,1,THE LIMITLESS+ ONE,"NO CAPPING^
+on hospitalization expenses, procedures &
+beneﬁts such as room rent, ICU charges,
+road ambulance cover, day care treatments,
+organ donor expenses, and a lot more, up to
+your Base Sum Insured.",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 1.,True
+ABHI-007A,Aditya Birla Capital,Activ One,,sum_insured,Sum Insured Range,Wide range of Sum Insured options available from INR 5 lacs to INR 6 crores.,5 lacs to 6 crores,INR Sum Insured,Wide range of Sum Insured options.,INR 5 lacs minimum to INR 6 crores maximum.,,,False,,numerical_limit,ABHI Product Brochure.pdf,2,MORE BENEFITS,"MORE BENEFITS
+Wide range of Sum Insured from
+INR 5 lacs to INR 6 crores",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-007B,Aditya Birla Capital,Activ One,,maternity,Domestic & Worldwide Maternity Limits,Domestic Maternity up to INR 1 Lac for BSI INR 50 Lacs and 75 Lacs; Worldwide Maternity up to INR 2 Lacs for BSI INR 1 Cr and above.,1 Lac / 2 Lacs,INR Maternity Cover,Domestic Maternity for BSI 50/75 Lacs; WW Maternity for BSI 1 Cr and above.,Domestic Maternity up to INR 1 Lac; WW Maternity up to INR 2 Lacs.,,,False,,numerical_limit,ABHI Product Brochure.pdf,2,Footnote Rules,"%For BSI INR 50 Lacs and 75 Lacs -  Domestic
+Maternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs.",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-008A,Aditya Birla Capital,Activ One,SAVR,benefit,Activ One SAVR Tax Savings,"Save up to INR 50,000 every year on taxes over and above claimable limit of INR 25,000 by declaring parents or parents-in-law under Activ One SAVR plan.","50,000",INR tax savings per year,Declare parents or parents-in-law under policy with Activ One SAVR plan.,"Over and above claimable limit of INR 25,000.",Activ One SAVR plan.,,False,,product_variant,ABHI Product Brochure.pdf,2,ACTIV ONE SAVR PLAN,"Over and above the claimable limit
+of INR 25,000, save up to INR
+50,000 every year on your taxes
+by simply declaring your parents
+or parents-in-law under your
+policy with Activ One SAVR plan",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+ABHI-008B,Aditya Birla Capital,Activ One,SAVR,hospitalization,Activ One SAVR Hospi Cash,Hospi Cash benefit provides INR 500 per day up to 30 days for hospitalization of parents / parents-in-law under Activ One SAVR plan.,500,INR per day,For hospitalization of parents / parents-in-law.,Maximum up to 30 days.,Activ One SAVR plan.,,False,,product_variant,ABHI Product Brochure.pdf,2,ACTIV ONE SAVR PLAN,"ACTIV ONE SAVR PLAN
+OFFERS THE BENEFITS OF:
+HOSPI CASH
+where you get INR 500 per day
+(maximum up to 30 days) for the
+hospitalization of your parents /
+parents-in-law.",direct,,,verified,Passed strict 8-point post-generation verification against ABHI Product Brochure.pdf Page 2.,True
+CARE-001A,Care Health Insurance,Care Supreme,,bonus,Cumulative Bonus,"Cumulative Bonus adds 50% of Sum Insured per year up to maximum 100% of SI, and shall not reduce in case of claim.",50%,Sum Insured per year,Shall not reduce in case of claim.,Max. up to 100% of SI.,,,False,,direct_benefit,Care Health Product Brochure.pdf,2,Plan Details,"50% of SI per year, max. up to 100% of SI;
+shall not reduce in case of claim",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 2.,True
+CARE-001B,Care Health Insurance,Care Supreme,,bonus,Cumulative Bonus Super Add-on,"Cumulative Bonus Super add-on increases cover up to 100% of SI per year, max. up to 500% of Sum Insured without reducing in case of claim.",100%,Sum Insured per year,Note: shall not reduce in case of claim.,Max. up to 500% of Sum Insured.,,,True,Cumulative Bonus Super,optional_addon,Care Health Product Brochure.pdf,3,Optional Benefits,"Cumulative Bonus Super5
+Up to 100% of SI per year, max. up to 500% of Sum Insured
+Note: shall not reduce in case of claim",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 3.,True
+CARE-002,Care Health Insurance,Care Supreme,,pre_post_hospitalization,Pre & Post Hospitalization Medical Expenses,Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage.,60 / 180,days pre / post hospitalization,Pre-hospitalization for 60 days prior and post-hospitalization for 180 days after discharge.,,,,False,,direct_benefit,Care Health Product Brochure.pdf,1,Key Highlights,Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage,direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 1.,True
+CARE-003,Care Health Insurance,Care Supreme,,recharge_restore,Unlimited Automatic Recharge,Unlimited Automatic Recharge available for unlimited times for unrelated or same illness.,unlimited,times,Available for unrelated or same illness.,Available for unlimited times.,,,False,,direct_benefit,Care Health Product Brochure.pdf,2,Plan Details,"Unlimited Automatic Recharge
+Health Services
+Unlimited E-Consultations2
+Room Rent
+5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L
+18 years or above
+1/2/3 years
+Adult: 18 years
+Child: 90 days
+Adult: Lifelong
+Child: 24 years
+Adult: Lifelong
+Child: 25 years
+Individual:max. up to 6 persons  |  Floater: max. up to 2A2C
+Zone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur
+Zone 2: Mumbai MMR
+Zone 3: Rest of Gujarat
+Zone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune
+Zone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),
+              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,
+              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,
+              Nagpur, Quilon, Vijayawada, Visakhapatnam,
+              Haridwar
+Zone 6: Rest of Karnataka, Rest of Maharashtra, Agra,
+              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,
+              Hooghly, Jaipur, Ludhiana, Patiala, Patna,
+              Trivandrum, Ujjain
+Zone 7: Rest of India
+Note:
+1. Cities above means adjoining cities also
+2. Delhi-NCR, Mumbai (MMR) is as defined by Government
+Premium Payment Term
+Who Are Covered
+(Relationship with respect to the Proposer)
+Single
+Self, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,
+Father, Mother, Mother-in-law, Father-in law,  Grand father, Grand
+mother
+Up to SI
+All day care procedures
+Up to SI
+Up to SI
+50% of SI per year, max. up to 100% of SI;
+shall not reduce in case of claim
+Up to SI, post-hospitalization expense cover for 180 days
+after discharge
+Up to SI, pre-hospitalization expense cover for 60 days
+prior to hospitalization
+Up to SI
+Up to SI
+Up to SI
+For SI below `15 lac - up to `10,000
+For SI `15 lac and above - up to SI
+Available for unlimited times for unrelated or same illness",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 2.,True
+CARE-004,Care Health Insurance,Care Supreme,,ambulance,Air Ambulance Cover,Air Ambulance cover up to 5 lacs per year under optional benefit.,5 lacs,lacs per year,Optional benefit under Care Supreme.,Up to 5 lacs per year.,,,True,Air Ambulance,optional_addon,Care Health Product Brochure.pdf,3,Optional Benefits,"Air Ambulance5
+Up to `5 lacs per year",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 3.,True
+CARE-005,Care Health Insurance,Care Supreme,,chronic_condition,Instant Cover Pre-Existing Diseases,"Instant Cover optional benefit covers specified pre-existing conditions (Hypertension, Diabetes, Hyperlipidemia, Asthma, COPD, Obesity, CAD with PTCA prior to 1 year) post initial wait period of 30 days.",30,days initial wait period,Post initial wait period of 30 days.,CAD requires PTCA done prior to 1 year.,,30 days,True,Instant Cover,optional_addon,Care Health Product Brochure.pdf,3,Optional Benefits,"Instant Cover7
+For Hypertension or Diabetes or Hyperlipidemia or Asthma post
+initial wait period of 30 days5
+For Diabetes/ Hypertension/ Hyperlipidimia/ Asthma/ Chronic
+Obstructive Pulmonary Disease (COPD)/ Obesity/ Coronary Artery
+Disease with PTCA done prior to 1 year, post initial wait period
+of 30 days6",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 3.,True
+CARE-006,Care Health Insurance,Care Supreme,,waiting_period,Wait Periods,"Initial Wait Period 30 days (not applicable on accident cases), Named Ailment 24 months, Pre-Existing Diseases 36 months.",30 days / 24 months / 36 months,waiting periods,Initial wait period not applicable on accident cases.,"30 days initial, 24 months named ailment, 36 months PED.",,30 days initial / 24 months named ailment / 36 months PED,False,,waiting_period,Care Health Product Brochure.pdf,4,Wait Periods,"Wait Periods:
+Initial Wait Period
+(not applicable on accident cases)
+Named Ailment
+Pre-Existing Diseases
+30 days
+24 months
+36 months",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 4.,True
+CARE-007,Care Health Insurance,Care Supreme,,add_on,Care OPD Add-on Benefit,"Care OPD provides up to 4 physical consultations with general physician (up to 1000 per consultation, 10% co-payment) and 4 physical consultations with 14 specified specialists (up to 2000 per consultation, 5% co-payment) per insured in a policy year.",1000 / 2000,per consultation limit,Co-payment of 10% per claim for general physician; co-payment of 5% per claim for 14 specified specialists.,Max. 4 physical consultations with general physician (up to 1000) and 4 with 14 specified specialists (up to 2000) per insured in a policy year.,,,True,Care OPD,optional_addon,Care Health Product Brochure.pdf,3,Care OPD,"Care OPD9
+1. Max. 4 physical consultations with general physician, up to
+    `1000 per consultation per insured in a policy year;
+    co-payment of 10% per claim is applicable
+2. Max. 4 physical consultations with 14 specified specialists, up to
+    `2000 per consultation per insured in a policy year ; co-payment
+    of 5% per claim is applicable",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 3.,True
+CARE-008,Care Health Insurance,Care Supreme,,eligibility,Eligibility Criteria & Zone Pricing,"Proposer age 18 years or above. Entry age Minimum Adult 18 years, Child 90 days. Entry age Maximum Adult Lifelong, Child 24 years. Exit age Adult Lifelong, Child 25 years. Cover Type Individual max up to 6 persons | Floater max up to 2A2C. Pricing across Zone 1 to Zone 7.",,years entry age / zones,Pricing based on Zone 1 to Zone 7.,Individual max up to 6 persons; Floater max up to 2A2C.,Proposer 18 years or above; Adult entry 18 years (Lifelong exit); Child entry 90 days (Exit 24/25 years).,,False,,eligibility_rule,Care Health Product Brochure.pdf,2,Eligibility Criteria,"Eligibility Criteria:
+Sum Insured4 (SI) – on Annual Basis (in `)
+Age of Proposer
+Tenure Options
+Entry Age – Minimum
+Entry Age – Maximum
+Exit Age
+Cover Type
+Pricing
+Plan Details:
+In-Patient Care
+Day Care Treatment
+Modern Treatment
+ICU Cover
+Cumulative Bonus
+Road Ambulance Cover
+Pre-Hospitalization Medical Expenses
+Post Hospitalization Medical Expenses
+AYUSH Treatment
+Domiciliary Hospitalization
+Organ Donor Cover
+Unlimited Automatic Recharge
+Health Services
+Unlimited E-Consultations2
+Room Rent
+5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L
+18 years or above
+1/2/3 years
+Adult: 18 years
+Child: 90 days
+Adult: Lifelong
+Child: 24 years
+Adult: Lifelong
+Child: 25 years
+Individual:max. up to 6 persons  |  Floater: max. up to 2A2C
+Zone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur
+Zone 2: Mumbai MMR
+Zone 3: Rest of Gujarat
+Zone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune
+Zone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),
+              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,
+              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,
+              Nagpur, Quilon, Vijayawada, Visakhapatnam,
+              Haridwar
+Zone 6: Rest of Karnataka, Rest of Maharashtra, Agra,
+              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,
+              Hooghly, Jaipur, Ludhiana, Patiala, Patna,
+              Trivandrum, Ujjain
+Zone 7: Rest of India",direct,,,verified,Passed strict 8-point post-generation verification against Care Health Product Brochure.pdf Page 2.,True
+HDFC-001,HDFC ERGO,Optima Secure+,,coverage,Secure Benefit,"Base cover doubles instantly at no extra cost, giving 2X coverage from Day 1.",2X,Base Sum Insured,2X coverage from Day 1 at no extra cost.,,,,False,,direct_benefit,HDFC Product Brochure.pdf,2,Key Coverages,"Secure Beneﬁt
+2X coverage from Day 1
+Your base cover doubles instantly, at no extra cost",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 2.,True
+HDFC-002,HDFC ERGO,Optima Secure+,,bonus,Infinite Benefit,"100% of base sum insured added year after year, infinite times, irrespective of claims made.",100%,base sum insured year after year,"Accumulate 100% of base sum insured year after year, infinite times, irrespective of claims made.",100% added per policy year.,,,False,,direct_benefit,HDFC Product Brochure.pdf,2,Key Coverages,"Inﬁnite Beneﬁt*
+100% of base sum insured added
+Accumulate 100% of base sum insured year after year, inﬁnite times,
+irrespective of claims made",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 2.,True
+HDFC-003,HDFC ERGO,Optima Secure+,,recharge_restore,Automatic Restore Benefit,"Every time you claim, your base cover is restored, as many times as needed (unlimited times).",unlimited,times base cover restoration,"Every time you claim, base cover is restored as many times as needed.",Restored as many times as needed.,,,False,,direct_benefit,HDFC Product Brochure.pdf,2,Key Coverages,"Automatic Restore Beneﬁt**
+(Unlimited Times)
+Every time you claim, your base cover is restored, as many times as
+needed",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 2.,True
+HDFC-004,HDFC ERGO,Optima Secure+,,non_medical_expenses,Protect Benefit,Zero deductions on listed non-medical expenses to maximize your claim during hospitalization.,Zero,deductions on listed non-medical expenses,Zero deductions on listed non-medical expenses.,,,,False,,direct_benefit,HDFC Product Brochure.pdf,2,Key Coverages,"Protect Beneﬁt#
+Zero deductions on listed non-medical expenses to maximise your claim
+during hospitalisation",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 2.,True
+HDFC-005,HDFC ERGO,Optima Secure+,,pre_post_hospitalization,60 & 180 Days Pre & Post Hospitalisation,Covers medical expenses for 60 days pre and 180 days post hospitalisation instead of 30 and 90 days.,60 / 180,days pre / post hospitalisation,Medical expenses for 60 days pre and 180 days post hospitalisation.,,,,False,,direct_benefit,HDFC Product Brochure.pdf,4,Additional Coverages,"60 & 180 Days Pre & Post Hospitalisation Covered
+Instead of 30 and 90 days availed normally, Optima Secure+ covers
+medical expenses for 60 days pre and 180 days post hospitalisation.",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 4.,True
+HDFC-006,HDFC ERGO,Optima Secure+,,room_rent,Daily Cash For Shared Room,"Daily cash of INR 800 per day up to a maximum of INR 4,800 on hospitalisation provided when choosing shared accommodation in a network hospital exceeding 48 hours.",800,INR per day,When choosing shared accommodation in a network hospital and hospitalisation period exceeds 48 hours.,"Maximum of INR 4,800.",,,False,,direct_benefit,HDFC Product Brochure.pdf,4,Additional Coverages,"Daily Cash For Shared Room
+With this, daily cash of INR 800 per day up to a maximum of INR 4,800 on
+hospitalisation is provided as out-of-pocket expenses when you choose a
+shared accommodation in a network hospital, and the hospitalisation
+period exceeds 48 hours.",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 4.,True
+HDFC-007,HDFC ERGO,Optima Secure+,,wellness,Preventive Health Check-up Sub-limits,"Preventive health check-up benefits provided post completion of every policy year, irrespective of claim status, up to sub-limits based on Base Sum Insured (10L BSI: 2,000 Ind / 5,000 Flt; 15L BSI: 4,000 Ind / 8,000 Flt; 20-50L BSI: 5,000 Ind / 10,000 Flt; 100-200L BSI: 8,000 Ind / 15,000 Flt).",,INR sub-limits per policy year,"Provided post completion of every policy year, irrespective of claim status.","Sub-limits: 10L (2,000 Ind / 5,000 Flt); 15L (4,000 Ind / 8,000 Flt); 20-50L (5,000 Ind / 10,000 Flt); 100-200L (8,000 Ind / 15,000 Flt).",,,False,,direct_benefit,HDFC Product Brochure.pdf,5,Preventive Health Check-up,"Preventive Health Check-up
+You will be provided preventive health check-up beneﬁts post completion
+of every policy year, irrespective of claim status.
+Mr. Sharma can choose tests of his choice up to a sub-limit as mentioned
+below for any insured person (including children).
+Base Sum Insured (in INR)
+Individual Policy
+(per insured)
+2,000
+4,000
+5,000
+8,000
+Floater Policy
+(per policy)
+5,000
+8,000
+10,000
+15,000
+10 L
+15 L
+20 L, 25 L & 50 L
+100 L & 200 L",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 5.,True
+HDFC-008,HDFC ERGO,Optima Secure+,,deductible,Aggregate Deductible - Value Buy,"Optional aggregate deductible options (25,000, 50,000, 1,00,000, 2,00,000, 3,00,000, 5,00,000) offering up to 65% discount on premium.",65%,premium discount,Deductible is an amount you agree to pay at the time of claim once in a policy year.,"Deductible options: 25,000, 50,000, 1,00,000, 2,00,000, 3,00,000, 5,00,000.",,,True,,deductible,HDFC Product Brochure.pdf,7,Make Your Own Plan,"Make Your Own Plan
+Aggregate Deductible - Value Buy
+A deductible is an amount you agree to pay at the time of claim once in a
+policy year, post which our coverage kicks in. You can choose from the
+below deductible options and enjoy up to 65% discount on your premium.
+Deductible
+Amount
+Optima Secure +
+25,000
+22.5%
+15%
+15%
+50,000
+40%
+30%
+30%
+1,00,000
+50%
+40%
+40%
+Base SI <25 Lakhs
+Base SI = 25 Lakhs
+Base SI >= 50 Lakhs
+2,00,000
+55%
+45%
+45%
+3,00,000
+65%
+55%
+55%
+5,00,000
+NA
+62%
+62%",direct,,,verified,Passed strict 8-point post-generation verification against HDFC Product Brochure.pdf Page 7.,True
+NIVA-001,Niva Bupa,ReAssure 2.0,,recharge_restore,ReAssure+ Unlimited Lock & Refill,"1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid.",,Base Sum Insured per claim,"1 claim triggers ReAssure+, forever; pay premium as per entry age till a claim is paid.",Each claim will be up to the Base Sum Insured.,,,False,,direct_benefit,Niva Bupa Product Brochure.pdf,2,Product Benefit Table,"ReAssure+
+st
+• 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the
+   Base Sum Insured
+• Pay the premium as per your entry age, till a claim is paid",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-002,Niva Bupa,ReAssure 2.0,Titanium+,bonus,Booster+ Carry Forward (Titanium+ Variant),"Unutilised Base Sum Insured carries forward to the next policy year, maximum up to 10 times of Base Sum Insured under Titanium+ variant.",10X,Base Sum Insured,Applicable for Titanium+ variant.,Maximum up to 10 times of Base Sum Insured.,Titanium+ variant.,,False,,product_variant,Niva Bupa Product Brochure.pdf,2,Product Benefit Table,"Variant
+Platinum
+T
++
+itanium+
+Base Sum Insured (INR)
+5 Lacs, 7.5 Lacs, 10 Lacs, 15 Lacs, 20 Lacs, 25 Lacs, 50 Lacs, 100 Lacs
+Beneﬁts
+In-patient Care
+(including AYUSH)
+Covered up to Sum Insured.
+Pre-Hospitalisation
+60 Days. Covered up to Sum Insured.
+Post-Hospitalisation
+180 Days. Covered up to Sum Insured.
+Modern Treatments
+Covered up to Sum Insured.
+Ambulance
+• Road Ambulance: Covered up to Sum Insured
+• Air Ambulance: up to INR 2,50,000 per Hospitalisation
+Home Care/Domiciliary
+Covered up to Sum Insured.
+Organ Donor
+Covered up to Sum Insured.
+For deﬁned list of tests; up to INR 500 for every INR 1 Lac Base Sum Insured.
+(Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy).
+(7)
+Annual Health Checkup
+(Day 1)
+ReAssure+
+st
+• 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the
+   Base Sum Insured
+• Pay the premium as per your entry age, till a claim is paid
+Booster+
+5X: Unutilised Base Sum Insured carries forward
+to the next policy year, maximum up to 5 times
+of Base Sum Insured.
+10X: Unutilised Base Sum Insured carries
+forward to the next policy year, maximum
+up to 10 times of Base Sum Insured.",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-003,Niva Bupa,ReAssure 2.0,Platinum,bonus,Booster+ Carry Forward (Platinum Variant),"Unutilised Base Sum Insured carries forward to the next policy year, maximum up to 5 times of Base Sum Insured under Platinum variant.",5X,Base Sum Insured,Applicable for Platinum variant.,Maximum up to 5 times of Base Sum Insured.,Platinum variant.,,False,,product_variant,Niva Bupa Product Brochure.pdf,2,Product Benefit Table,"Variant
+Platinum
+T
++
+itanium+
+Base Sum Insured (INR)
+5 Lacs, 7.5 Lacs, 10 Lacs, 15 Lacs, 20 Lacs, 25 Lacs, 50 Lacs, 100 Lacs
+Beneﬁts
+In-patient Care
+(including AYUSH)
+Covered up to Sum Insured.
+Pre-Hospitalisation
+60 Days. Covered up to Sum Insured.
+Post-Hospitalisation
+180 Days. Covered up to Sum Insured.
+Modern Treatments
+Covered up to Sum Insured.
+Ambulance
+• Road Ambulance: Covered up to Sum Insured
+• Air Ambulance: up to INR 2,50,000 per Hospitalisation
+Home Care/Domiciliary
+Covered up to Sum Insured.
+Organ Donor
+Covered up to Sum Insured.
+For deﬁned list of tests; up to INR 500 for every INR 1 Lac Base Sum Insured.
+(Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy).
+(7)
+Annual Health Checkup
+(Day 1)
+ReAssure+
+st
+• 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the
+   Base Sum Insured
+• Pay the premium as per your entry age, till a claim is paid
+Booster+
+5X: Unutilised Base Sum Insured carries forward
+to the next policy year, maximum up to 5 times
+of Base Sum Insured.",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-004,Niva Bupa,ReAssure 2.0,,wellness,Annual Health Checkup,"Annual Health Checkup (Day 1) for defined list of tests up to INR 500 for every INR 1 Lac Base Sum Insured (Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy).",500,INR per 1 Lac Base Sum Insured,For defined list of tests; Day 1 benefit.,"Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy.",,,False,,direct_benefit,Niva Bupa Product Brochure.pdf,2,Product Benefit Table,"For deﬁned list of tests; up to INR 500 for every INR 1 Lac Base Sum Insured.
+(Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy).
+(7)
+Annual Health Checkup
+(Day 1)",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-005,Niva Bupa,ReAssure 2.0,,add_on,Safeguard & Safeguard+ Optional Benefits,"Safeguard covers non-payable items (List I), locks Booster+ for claims < INR 50,000, and provides CPI linked BSI increase; Safeguard+ covers List I, II, III, IV non-payable items and locks Booster+ for claims < INR 1,00,000.",,INR claim threshold for Safeguard / Safeguard+,"Safeguard covers List I; Safeguard+ covers List I, II, III, IV of Annexure I.","Safeguard locks Booster+ for claims < INR 50,000; Safeguard+ locks Booster+ for claims < INR 1,00,000.",,,True,Safeguard / Safeguard+,optional_addon,Niva Bupa Product Brochure.pdf,2,Optional Benefits,"Safeguard
+• Claim Safeguard: Non-payable items will be covered (as per list I of Annexure I)
+• Booster+ Safeguard: No impact on Booster+ if claim in a policy year is less than INR 50,000
+• Sum Insured Safeguard: CPI linked increase in Base Sum Insured
+Safeguard+
+• Claim Safeguard+: Non-payable items will be covered (as per list I, II, III, IV of Annexure I)
+• Booster+ Safeguard+: No impact on Booster+ if claim in a policy year is less than INR 1,00,000
+• Sum Insured Safeguard+: CPI linked increase in Base Sum Insured",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-006,Niva Bupa,ReAssure 2.0,,network,Tiered Network Discount & Co-payment,Tiered Network gives 15% discount on Premium. A co-payment of 20% would apply if treatment taken in a non-Tiered Network Hospital.,15%,discount / co-payment %,20% co-payment applies if treatment taken in a non-Tiered Network Hospital.,20% co-payment for non-Tiered Network Hospital.,,,True,Tiered Network,optional_addon,Niva Bupa Product Brochure.pdf,2,Niva Bupa’s Assurance,"Tiered Network
+Get 15% discount on Premium. A co-payment of 20% would apply if treatment taken
+in a non-Tiered Network Hospital.",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-007A,Niva Bupa,ReAssure 2.0,,claim_service,30 Mins Cashless Claim Processing Commitment,30 Mins Cashless Claim Processing commitment for pre-authorisation requests.,30,minutes,Pre-authorisation requests processing within 30 minutes subject to receiving all documents and information.,Does not include pre-authorisation settlement at time of discharge or system outage.,,,False,,service_commitment,Niva Bupa Product Brochure.pdf,2,Niva Bupa’s Assurance,"(9)Niva Bupa processes pre-authorisation requests within 30 minutes for all active policies, subject to receiving all documents and
+information(s) up to Niva Bupa’s satisfaction. The above commitment does not include pre-authorisation settlement at the time of discharge
+or system outage.",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True
+NIVA-007B,Niva Bupa,ReAssure 2.0,,network,"10,000+ Network Hospitals Footprint","10,000+ network hospitals.","10,000+",network hospitals,Number of network hospitals shown is an approximate figure and is subject to change without prior notice.,,,,False,,direct_benefit,Niva Bupa Product Brochure.pdf,2,Network Footprint,"(10)Number of network hospitals shown is an approximate ﬁgure and is subject to change without prior notice, please visit
+our website to access latest and updated list of network hospitals. (11) Minimum 24 hours of hospitalisation required for AYUSH treatment in
+an AYUSH Hospital. Registered oﬃce Address: C-98, First Floor, Lajpat Nagar, Part 1, New Delhi-110024, Customer Helpline No.:
+1860-500-8888. Fax: +91 11 41743397. Website: www.nivabupa.com. CIN: L66000DL2008PLC182918. For more details on risk factors, terms,
+and conditions please read the sales brochure carefully before concluding a sale. Product Name: ReAssure 2.0. Product UIN:
+NBHHLIP26042V022526. Rider Name: Tiered Network, Rider UIN: NBHHLIA25039V012425. UIN: NB/SS/CA/2025-26/182.
+10,000+",direct,,,verified,Passed strict 8-point post-generation verification against Niva Bupa Product Brochure.pdf Page 2.,True

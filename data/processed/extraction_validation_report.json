@@ -1,0 +1,32 @@
+{
+  "overall_status": "PASSED",
+  "total_pdfs_discovered": 5,
+  "total_policy_documents_processed": 4,
+  "total_excluded_documents": 1,
+  "total_policy_pages_processed": 24,
+  "total_missing_pages": 0,
+  "total_duplicate_pages": 0,
+  "total_empty_pages": 0,
+  "total_suspicious_low_text_pages": 2,
+  "critical_term_validation": {
+    "status": "PASSED",
+    "all_terms_detected": true,
+    "term_details": {
+      "Currency Symbol (₹)": true,
+      "Currency Code (INR)": true,
+      "Percentage (%)": true,
+      "Multiplier (2X)": true,
+      "Multiplier (3X-6X)": true,
+      "Day Period (days)": true,
+      "Month Period (months)": true,
+      "Year Period (years)": true,
+      "Waiting Period": true,
+      "Sum Insured": true
+    }
+  },
+  "warnings": [
+    "LOW_TEXT_GRAPHIC_COVER: Page 1 in HDFC Product Brochure.pdf contains only 62 characters",
+    "LOW_TEXT_GRAPHIC_COVER: Page 1 in Niva Bupa Product Brochure.pdf contains only 19 characters"
+  ],
+  "errors": []
+}

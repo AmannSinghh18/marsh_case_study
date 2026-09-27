@@ -1,0 +1,198 @@
+{
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "risk_area": "maternity",
+      "requirement": "Maternity and Newborn Child Expense Coverage with minimal waiting period",
+      "rationale": "High proportion of young corporate employees (avg age 32) and growing families require financial protection for maternity and infant care.",
+      "importance": "hard_requirement",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> stated_employee_priorities",
+      "required_policy_features": [
+        "Maternity expense coverage",
+        "Newborn medical expenses cover"
+      ],
+      "preferred_policy_features": [
+        "Low waiting period",
+        "Pre and post natal expense reimbursement"
+      ],
+      "hard_constraints": [
+        "Must be supported by official policy evidence"
+      ],
+      "assumptions": [
+        "ASSUMP-001"
+      ],
+      "confidence": "high",
+      "evidence_ids": [
+        "ABHI-007B",
+        "CARE-007",
+        "HDFC-007"
+      ]
+    },
+    {
+      "requirement_id": "REQ-002",
+      "risk_area": "restore_refill",
+      "requirement": "Sum Insured Restoration / Automatic Refill Benefit for multi-claim events",
+      "rationale": "Protects company employees against exhaustion of sum insured due to major medical treatments or multiple family hospitalizations in a single year.",
+      "importance": "hard_requirement",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> stated_business_priorities",
+      "required_policy_features": [
+        "100% Sum Insured restore or reload benefit"
+      ],
+      "preferred_policy_features": [
+        "Same illness and different illness restore trigger"
+      ],
+      "hard_constraints": [
+        "Must apply automatically without extra manual application"
+      ],
+      "assumptions": [],
+      "confidence": "high",
+      "evidence_ids": [
+        "CARE-003",
+        "HDFC-003",
+        "ABHI-002",
+        "NIVA-001"
+      ]
+    },
+    {
+      "requirement_id": "REQ-003",
+      "risk_area": "room_rent",
+      "requirement": "No Room Rent Sub-limits / Single Private Room Flexibility",
+      "rationale": "Employees require freedom of hospital room category choice (Single Private Room or higher) without incurring co-payment penalties.",
+      "importance": "important_requirement",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> stated_employee_priorities",
+      "required_policy_features": [
+        "Single Private Room or Any Room category coverage"
+      ],
+      "preferred_policy_features": [
+        "No daily capping on ICU or room rent charges"
+      ],
+      "hard_constraints": [
+        "Avoid policies with restrictive 1% sum insured room rent caps"
+      ],
+      "assumptions": [],
+      "confidence": "high",
+      "evidence_ids": [
+        "HDFC-004",
+        "CARE-008",
+        "ABHI-006",
+        "NIVA-006"
+      ]
+    },
+    {
+      "requirement_id": "REQ-004",
+      "risk_area": "pre_post_hospitalization",
+      "requirement": "Extended Pre and Post Hospitalization Medical Expense Window",
+      "rationale": "Covers diagnostic tests prior to hospital admission and follow-up outpatient consultations/medicines post discharge.",
+      "importance": "important_requirement",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> case_specific_requirements",
+      "required_policy_features": [
+        "Pre-hospitalization coverage (60 days min)",
+        "Post-hospitalization coverage (90\u2013180 days)"
+      ],
+      "preferred_policy_features": [
+        "180 days post-hospitalization reimbursement"
+      ],
+      "hard_constraints": [
+        "Expenses must directly relate to the hospital admission claim"
+      ],
+      "assumptions": [],
+      "confidence": "high",
+      "evidence_ids": [
+        "CARE-002",
+        "HDFC-005",
+        "ABHI-006",
+        "NIVA-005"
+      ]
+    },
+    {
+      "requirement_id": "REQ-005",
+      "risk_area": "hospital_network",
+      "requirement": "Wide Cashless Network Hospital Network (10,000+ Hospitals in India)",
+      "rationale": "Ensures employees across Mumbai, Bengaluru, and Pune can access cashless hospitalization without out-of-pocket stress.",
+      "importance": "important_requirement",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> geography & stated_business_priorities",
+      "required_policy_features": [
+        "Pan-India network hospital coverage",
+        "Cashless claim settlement"
+      ],
+      "preferred_policy_features": [
+        "10,000+ empanelled hospital network"
+      ],
+      "hard_constraints": [
+        "Network size supported by official brochure documentation"
+      ],
+      "assumptions": [],
+      "confidence": "high",
+      "evidence_ids": [
+        "NIVA-007B",
+        "HDFC-007",
+        "CARE-008",
+        "ABHI-006"
+      ]
+    },
+    {
+      "requirement_id": "REQ-006",
+      "risk_area": "wellness_rewards",
+      "requirement": "Health Rewards & Active Fitness Incentives Program",
+      "rationale": "Encourages preventive corporate health habits, active lifestyle tracking, and wellness check-ups.",
+      "importance": "preference",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> stated_employee_priorities",
+      "required_policy_features": [
+        "Wellness rewards program",
+        "Health discount incentives"
+      ],
+      "preferred_policy_features": [
+        "Up to 100% premium/health returns reward for active steps"
+      ],
+      "hard_constraints": [],
+      "assumptions": [],
+      "confidence": "medium",
+      "evidence_ids": [
+        "ABHI-004",
+        "HDFC-007",
+        "CARE-007",
+        "NIVA-004"
+      ]
+    },
+    {
+      "requirement_id": "REQ-007",
+      "risk_area": "day_care",
+      "requirement": "Comprehensive Day Care Treatment & Advanced Procedure Coverage",
+      "rationale": "Covers modern medical procedures, chemotherapy, dialysis, and surgeries not requiring overnight 24-hour admission.",
+      "importance": "preference",
+      "source_type": "case_profile",
+      "source_reference": "case_profile.json -> case_specific_requirements",
+      "required_policy_features": [
+        "All day care medical procedures covered"
+      ],
+      "preferred_policy_features": [
+        "No restriction on specified list of day care treatments"
+      ],
+      "hard_constraints": [],
+      "assumptions": [],
+      "confidence": "high",
+      "evidence_ids": [
+        "CARE-001A",
+        "HDFC-002",
+        "ABHI-003A",
+        "NIVA-002"
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "assumption_id": "ASSUMP-001",
+      "assumption": "Corporate Group Policy customization allows negotiation of standard individual waiting periods for maternity.",
+      "why_needed": "Brochures present individual retail terms; corporate group negotiations may customize these.",
+      "effect_on_analysis": "Scoring compares standard brochure terms deterministically while highlighting corporate policy negotiation potential.",
+      "confidence": "medium"
+    }
+  ],
+  "total_requirements": 7
+}

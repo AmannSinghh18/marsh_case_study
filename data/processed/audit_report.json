@@ -1,0 +1,1352 @@
+{
+  "total_claims_audited": 25,
+  "pass_count": 25,
+  "review_count": 0,
+  "fail_count": 0,
+  "unsupported_claim_count": 0,
+  "audited_claims": [
+    {
+      "claim_id": "CLM-REC-001",
+      "claim_text": "Aditya Birla Capital (Activ Health) is selected for TechCorp Solutions because it achieves a 100.0% fit score (21.0/21.0) across all defined high-priority corporate requirements, winning the deterministic tie-break evaluation. It provides explicit domestic and worldwide maternity limits (ABHI-007B), 100% Super Reload sum insured (ABHI-002), No Capping Limitless Cover (ABHI-006), 100% HealthReturns active wellness rewards (ABHI-004), and Claim Protect non-medical expense cover (ABHI-003A/B).",
+      "claim_type": "recommendation_reason",
+      "source_output": "recommendation.json -> recommendation_summary",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-003A",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-003A",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Claim Protect Out-of-Pocket Expenses",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE CARING ONE",
+          "source_text": "In times of need, it may happen that other health insurance\npolicies may not cover your entire hospital bill as there may be\nsome non-medical out-of-pocket expenses which are generally\nnot paid by insurers, such as gloves, cotton, face masks, etc. Due\nto this, you may end up paying 10-20% of your hospital bills from\nyour own pocket.\nWant to know how Activ One can offer our\ncustomers complete peace of mind\u028e\nWHAT ELSE MAKES ACTIV ONE\nDIFFERENT?\nHEARD OF A HEALTH\nINSURANCE THAT HELPS\nYOU EARN UP TO\nEVERY YEAR EVEN IF YOU\nCLAIM, WITH WHICH YOU\nCAN PAY YOUR$ :\n100% HealthReturnsTM*\nRenewal premiums\n(yes, you can be premium-free!)\nMedical bills\nDiagnostic test costs\nCost for health\nemergencies\nHow can you earn HealthReturnsTM you ask\u028e\nTHAT\u2019S WHY\nWE CREATED A POOL OF\nFOR YOU!\nUNLIMITED\nCOVERAGE\nWhether it is about\ngood health assurance or\na good health insurance,\nunlimited bene\ufb01ts are\nalways a delight!\nWant to know how Activ One can make\nyour coverage limitless+\u028e\nGo ahead and pick your family\u2019s comfort\nover \ufb01nancial worries!\nNO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured.\nScan to meet THE LIMITLESS+ ONE\nGet up to 100% of your hospital\nbills covered with us (up to your\nSum Insured), for a worry-free\nexperience if and when you\nhave to claim!\nScan to meet THE CARING ONE\nfeature comes to your rescue and\ntakes care of 100% out-of-pocket\nexpenses!\nCLAIM PROTECT#\nOur"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-REC-002",
+      "claim_text": "Unlimited Automatic Recharge sum insured benefit.",
+      "claim_type": "benefit",
+      "source_output": "recommendation.json -> key_strengths",
+      "evidence_ids": [
+        "CARE-003"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-REC-003",
+      "claim_text": "60 days pre & 180 days post hospitalization reimbursement.",
+      "claim_type": "coverage",
+      "source_output": "recommendation.json -> key_strengths",
+      "evidence_ids": [
+        "CARE-002"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-REC-004",
+      "claim_text": "Access to 10,000+ cashless network hospitals across India.",
+      "claim_type": "coverage",
+      "source_output": "recommendation.json -> key_strengths",
+      "evidence_ids": [
+        "NIVA-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "NIVA-007B",
+          "insurer": "Niva Bupa",
+          "policy": "ReAssure 2.0",
+          "feature": "10,000+ Network Hospitals Footprint",
+          "source_document": "Niva Bupa Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Network Footprint",
+          "source_text": "(10)Number of network hospitals shown is an approximate \ufb01gure and is subject to change without prior notice, please visit\nour website to access latest and updated list of network hospitals. (11) Minimum 24 hours of hospitalisation required for AYUSH treatment in\nan AYUSH Hospital. Registered o\ufb03ce Address: C-98, First Floor, Lajpat Nagar, Part 1, New Delhi-110024, Customer Helpline No.:\n1860-500-8888. Fax: +91 11 41743397. Website: www.nivabupa.com. CIN: L66000DL2008PLC182918. For more details on risk factors, terms,\nand conditions please read the sales brochure carefully before concluding a sale. Product Name: ReAssure 2.0. Product UIN:\nNBHHLIP26042V022526. Rider Name: Tiered Network, Rider UIN: NBHHLIA25039V012425. UIN: NB/SS/CA/2025-26/182.\n10,000+"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S1-01",
+      "claim_text": "Client Company: TechCorp Solutions (Mid-Sized IT & Software Consulting Enterprise, 500 employees).",
+      "claim_type": "company_fact",
+      "source_output": "pitch_content.json -> Slide 1",
+      "evidence_ids": [
+        "NIVA-007B",
+        "HDFC-007",
+        "CARE-008",
+        "ABHI-006"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": []
+    },
+    {
+      "claim_id": "CLM-PTC-S1-02",
+      "claim_text": "Workforce Profile: Young corporate workforce (average age 32), tech professionals with young families in Mumbai, Bengaluru, Pune.",
+      "claim_type": "company_fact",
+      "source_output": "pitch_content.json -> Slide 1",
+      "evidence_ids": [
+        "NIVA-007B",
+        "HDFC-007",
+        "CARE-008",
+        "ABHI-006"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": []
+    },
+    {
+      "claim_id": "CLM-PTC-S1-03",
+      "claim_text": "Core Risk Exposure: High vulnerability to medical inflation, family hospitalization costs, and maternity expenses.",
+      "claim_type": "company_fact",
+      "source_output": "pitch_content.json -> Slide 1",
+      "evidence_ids": [
+        "NIVA-007B",
+        "HDFC-007",
+        "CARE-008",
+        "ABHI-006"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": []
+    },
+    {
+      "claim_id": "CLM-PTC-S1-04",
+      "claim_text": "Strategic Objective: Secure comprehensive corporate group health coverage with cashless hospital access and zero unverified claims.",
+      "claim_type": "company_fact",
+      "source_output": "pitch_content.json -> Slide 1",
+      "evidence_ids": [
+        "NIVA-007B",
+        "HDFC-007",
+        "CARE-008",
+        "ABHI-006"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": []
+    },
+    {
+      "claim_id": "CLM-PTC-S2-01",
+      "claim_text": "REQ-001 (Hard Req): Maternity & Newborn Cover with defined limit or rider option.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 2",
+      "evidence_ids": [
+        "CARE-002",
+        "CARE-003",
+        "CARE-007",
+        "CARE-008",
+        "HDFC-005"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "CARE-007",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Care OPD Add-on Benefit",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 3,
+          "source_section": "Care OPD",
+          "source_text": "Care OPD9\n1. Max. 4 physical consultations with general physician, up to\n    `1000 per consultation per insured in a policy year;\n    co-payment of 10% per claim is applicable\n2. Max. 4 physical consultations with 14 specified specialists, up to\n    `2000 per consultation per insured in a policy year ; co-payment\n    of 5% per claim is applicable"
+        },
+        {
+          "evidence_id": "CARE-008",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Eligibility Criteria & Zone Pricing",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Eligibility Criteria",
+          "source_text": "Eligibility Criteria:\nSum Insured4 (SI) \u2013 on Annual Basis (in `)\nAge of Proposer\nTenure Options\nEntry Age \u2013 Minimum\nEntry Age \u2013 Maximum\nExit Age\nCover Type\nPricing\nPlan Details:\nIn-Patient Care\nDay Care Treatment\nModern Treatment\nICU Cover\nCumulative Bonus\nRoad Ambulance Cover\nPre-Hospitalization Medical Expenses\nPost Hospitalization Medical Expenses\nAYUSH Treatment\nDomiciliary Hospitalization\nOrgan Donor Cover\nUnlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India"
+        },
+        {
+          "evidence_id": "HDFC-005",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "60 & 180 Days Pre & Post Hospitalisation",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 4,
+          "source_section": "Additional Coverages",
+          "source_text": "60 & 180 Days Pre & Post Hospitalisation Covered\nInstead of 30 and 90 days availed normally, Optima Secure+ covers\nmedical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S2-02",
+      "claim_text": "REQ-002 (Hard Req): 100% Sum Insured Restoration / Automatic Refill for multi-claim protection.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 2",
+      "evidence_ids": [
+        "CARE-002",
+        "CARE-003",
+        "CARE-007",
+        "CARE-008",
+        "HDFC-005"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "CARE-007",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Care OPD Add-on Benefit",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 3,
+          "source_section": "Care OPD",
+          "source_text": "Care OPD9\n1. Max. 4 physical consultations with general physician, up to\n    `1000 per consultation per insured in a policy year;\n    co-payment of 10% per claim is applicable\n2. Max. 4 physical consultations with 14 specified specialists, up to\n    `2000 per consultation per insured in a policy year ; co-payment\n    of 5% per claim is applicable"
+        },
+        {
+          "evidence_id": "CARE-008",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Eligibility Criteria & Zone Pricing",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Eligibility Criteria",
+          "source_text": "Eligibility Criteria:\nSum Insured4 (SI) \u2013 on Annual Basis (in `)\nAge of Proposer\nTenure Options\nEntry Age \u2013 Minimum\nEntry Age \u2013 Maximum\nExit Age\nCover Type\nPricing\nPlan Details:\nIn-Patient Care\nDay Care Treatment\nModern Treatment\nICU Cover\nCumulative Bonus\nRoad Ambulance Cover\nPre-Hospitalization Medical Expenses\nPost Hospitalization Medical Expenses\nAYUSH Treatment\nDomiciliary Hospitalization\nOrgan Donor Cover\nUnlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India"
+        },
+        {
+          "evidence_id": "HDFC-005",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "60 & 180 Days Pre & Post Hospitalisation",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 4,
+          "source_section": "Additional Coverages",
+          "source_text": "60 & 180 Days Pre & Post Hospitalisation Covered\nInstead of 30 and 90 days availed normally, Optima Secure+ covers\nmedical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S2-03",
+      "claim_text": "REQ-003 (Important): Flexible Room Rent (Single Private Room or No Capping Limitless cover).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 2",
+      "evidence_ids": [
+        "CARE-002",
+        "CARE-003",
+        "CARE-007",
+        "CARE-008",
+        "HDFC-005"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "CARE-007",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Care OPD Add-on Benefit",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 3,
+          "source_section": "Care OPD",
+          "source_text": "Care OPD9\n1. Max. 4 physical consultations with general physician, up to\n    `1000 per consultation per insured in a policy year;\n    co-payment of 10% per claim is applicable\n2. Max. 4 physical consultations with 14 specified specialists, up to\n    `2000 per consultation per insured in a policy year ; co-payment\n    of 5% per claim is applicable"
+        },
+        {
+          "evidence_id": "CARE-008",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Eligibility Criteria & Zone Pricing",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Eligibility Criteria",
+          "source_text": "Eligibility Criteria:\nSum Insured4 (SI) \u2013 on Annual Basis (in `)\nAge of Proposer\nTenure Options\nEntry Age \u2013 Minimum\nEntry Age \u2013 Maximum\nExit Age\nCover Type\nPricing\nPlan Details:\nIn-Patient Care\nDay Care Treatment\nModern Treatment\nICU Cover\nCumulative Bonus\nRoad Ambulance Cover\nPre-Hospitalization Medical Expenses\nPost Hospitalization Medical Expenses\nAYUSH Treatment\nDomiciliary Hospitalization\nOrgan Donor Cover\nUnlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India"
+        },
+        {
+          "evidence_id": "HDFC-005",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "60 & 180 Days Pre & Post Hospitalisation",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 4,
+          "source_section": "Additional Coverages",
+          "source_text": "60 & 180 Days Pre & Post Hospitalisation Covered\nInstead of 30 and 90 days availed normally, Optima Secure+ covers\nmedical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S2-04",
+      "claim_text": "REQ-004 (Important): Pre-hospitalization (60 days) and Post-hospitalization (180 days) reimbursement.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 2",
+      "evidence_ids": [
+        "CARE-002",
+        "CARE-003",
+        "CARE-007",
+        "CARE-008",
+        "HDFC-005"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "CARE-007",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Care OPD Add-on Benefit",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 3,
+          "source_section": "Care OPD",
+          "source_text": "Care OPD9\n1. Max. 4 physical consultations with general physician, up to\n    `1000 per consultation per insured in a policy year;\n    co-payment of 10% per claim is applicable\n2. Max. 4 physical consultations with 14 specified specialists, up to\n    `2000 per consultation per insured in a policy year ; co-payment\n    of 5% per claim is applicable"
+        },
+        {
+          "evidence_id": "CARE-008",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Eligibility Criteria & Zone Pricing",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Eligibility Criteria",
+          "source_text": "Eligibility Criteria:\nSum Insured4 (SI) \u2013 on Annual Basis (in `)\nAge of Proposer\nTenure Options\nEntry Age \u2013 Minimum\nEntry Age \u2013 Maximum\nExit Age\nCover Type\nPricing\nPlan Details:\nIn-Patient Care\nDay Care Treatment\nModern Treatment\nICU Cover\nCumulative Bonus\nRoad Ambulance Cover\nPre-Hospitalization Medical Expenses\nPost Hospitalization Medical Expenses\nAYUSH Treatment\nDomiciliary Hospitalization\nOrgan Donor Cover\nUnlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India"
+        },
+        {
+          "evidence_id": "HDFC-005",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "60 & 180 Days Pre & Post Hospitalisation",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 4,
+          "source_section": "Additional Coverages",
+          "source_text": "60 & 180 Days Pre & Post Hospitalisation Covered\nInstead of 30 and 90 days availed normally, Optima Secure+ covers\nmedical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S2-05",
+      "claim_text": "REQ-005 (Important): Wide Cashless Network Hospital Access (10,000+ empanelled hospitals in India).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 2",
+      "evidence_ids": [
+        "CARE-002",
+        "CARE-003",
+        "CARE-007",
+        "CARE-008",
+        "HDFC-005"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "CARE-007",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Care OPD Add-on Benefit",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 3,
+          "source_section": "Care OPD",
+          "source_text": "Care OPD9\n1. Max. 4 physical consultations with general physician, up to\n    `1000 per consultation per insured in a policy year;\n    co-payment of 10% per claim is applicable\n2. Max. 4 physical consultations with 14 specified specialists, up to\n    `2000 per consultation per insured in a policy year ; co-payment\n    of 5% per claim is applicable"
+        },
+        {
+          "evidence_id": "CARE-008",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Eligibility Criteria & Zone Pricing",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Eligibility Criteria",
+          "source_text": "Eligibility Criteria:\nSum Insured4 (SI) \u2013 on Annual Basis (in `)\nAge of Proposer\nTenure Options\nEntry Age \u2013 Minimum\nEntry Age \u2013 Maximum\nExit Age\nCover Type\nPricing\nPlan Details:\nIn-Patient Care\nDay Care Treatment\nModern Treatment\nICU Cover\nCumulative Bonus\nRoad Ambulance Cover\nPre-Hospitalization Medical Expenses\nPost Hospitalization Medical Expenses\nAYUSH Treatment\nDomiciliary Hospitalization\nOrgan Donor Cover\nUnlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India"
+        },
+        {
+          "evidence_id": "HDFC-005",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "60 & 180 Days Pre & Post Hospitalisation",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 4,
+          "source_section": "Additional Coverages",
+          "source_text": "60 & 180 Days Pre & Post Hospitalisation Covered\nInstead of 30 and 90 days availed normally, Optima Secure+ covers\nmedical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S3-01",
+      "claim_text": "Aditya Birla Capital: Fit Score 21.0/21.0 (100.0%) \u2014 Super Reload (ABHI-002), Maternity limits (ABHI-007B), 100% HealthReturns (ABHI-004). Rank 1 (Tie-Break Winner).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 3",
+      "evidence_ids": [
+        "ABHI-007B",
+        "CARE-003",
+        "HDFC-003",
+        "NIVA-001"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "HDFC-003",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "Automatic Restore Benefit",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Key Coverages",
+          "source_text": "Automatic Restore Bene\ufb01t**\n(Unlimited Times)\nEvery time you claim, your base cover is restored, as many times as\nneeded"
+        },
+        {
+          "evidence_id": "NIVA-001",
+          "insurer": "Niva Bupa",
+          "policy": "ReAssure 2.0",
+          "feature": "ReAssure+ Unlimited Lock & Refill",
+          "source_document": "Niva Bupa Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Product Benefit Table",
+          "source_text": "ReAssure+\nst\n\u2022 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the\n   Base Sum Insured\n\u2022 Pay the premium as per your entry age, till a claim is paid"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S3-02",
+      "claim_text": "Care Health Insurance: Fit Score 21.0/21.0 (100.0%) \u2014 Unlimited Recharge (CARE-003), 60/180 pre/post (CARE-002), Care OPD rider (CARE-007). Rank 2.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 3",
+      "evidence_ids": [
+        "ABHI-007B",
+        "CARE-003",
+        "HDFC-003",
+        "NIVA-001"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "HDFC-003",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "Automatic Restore Benefit",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Key Coverages",
+          "source_text": "Automatic Restore Bene\ufb01t**\n(Unlimited Times)\nEvery time you claim, your base cover is restored, as many times as\nneeded"
+        },
+        {
+          "evidence_id": "NIVA-001",
+          "insurer": "Niva Bupa",
+          "policy": "ReAssure 2.0",
+          "feature": "ReAssure+ Unlimited Lock & Refill",
+          "source_document": "Niva Bupa Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Product Benefit Table",
+          "source_text": "ReAssure+\nst\n\u2022 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the\n   Base Sum Insured\n\u2022 Pay the premium as per your entry age, till a claim is paid"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S3-03",
+      "claim_text": "HDFC ERGO (Optima Secure): Fit Score 18.5/21.0 (88.1%) \u2014 Restore benefit (HDFC-003), Protect benefit no room cap (HDFC-004), 60/180 pre/post (HDFC-005).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 3",
+      "evidence_ids": [
+        "ABHI-007B",
+        "CARE-003",
+        "HDFC-003",
+        "NIVA-001"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "HDFC-003",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "Automatic Restore Benefit",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Key Coverages",
+          "source_text": "Automatic Restore Bene\ufb01t**\n(Unlimited Times)\nEvery time you claim, your base cover is restored, as many times as\nneeded"
+        },
+        {
+          "evidence_id": "NIVA-001",
+          "insurer": "Niva Bupa",
+          "policy": "ReAssure 2.0",
+          "feature": "ReAssure+ Unlimited Lock & Refill",
+          "source_document": "Niva Bupa Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Product Benefit Table",
+          "source_text": "ReAssure+\nst\n\u2022 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the\n   Base Sum Insured\n\u2022 Pay the premium as per your entry age, till a claim is paid"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S3-04",
+      "claim_text": "Niva Bupa (ReAssure 2.0): Fit Score 16.0/21.0 (76.2%) \u2014 ReAssure+ Unlimited Lock & Refill (NIVA-001), 10,000+ Hospitals (NIVA-007B).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 3",
+      "evidence_ids": [
+        "ABHI-007B",
+        "CARE-003",
+        "HDFC-003",
+        "NIVA-001"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-003",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Unlimited Automatic Recharge",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Plan Details",
+          "source_text": "Unlimited Automatic Recharge\nHealth Services\nUnlimited E-Consultations2\nRoom Rent\n5L/ 7L/ 10L/ 15L/ 25L/ 50L/ 100L\n18 years or above\n1/2/3 years\nAdult: 18 years\nChild: 90 days\nAdult: Lifelong\nChild: 24 years\nAdult: Lifelong\nChild: 25 years\nIndividual:max. up to 6 persons  |  Floater: max. up to 2A2C\nZone 1: Delhi NCR, Surat, Mathura, Aligarh, Alwar, Bharatpur\nZone 2: Mumbai MMR\nZone 3: Rest of Gujarat\nZone 4: Telangana, Ahilyanagar , Indore, Nashik, Pune\nZone 5: Alwaye, Asansol, Aurangabad, Bangalore (Urban),\n              Barasat, Bhusaval, Dehradun, Guntur, Gwalior, Hisar,\n              Hoshangabad, Howrah, Jalgaon, Kolkata, Mangalore,\n              Nagpur, Quilon, Vijayawada, Visakhapatnam,\n              Haridwar\nZone 6: Rest of Karnataka, Rest of Maharashtra, Agra,\n              Amritsar, Chandigarh, Chennai, Cuttack, Ernakulam,\n              Hooghly, Jaipur, Ludhiana, Patiala, Patna,\n              Trivandrum, Ujjain\nZone 7: Rest of India\nNote:\n1. Cities above means adjoining cities also\n2. Delhi-NCR, Mumbai (MMR) is as defined by Government\nPremium Payment Term\nWho Are Covered\n(Relationship with respect to the Proposer)\nSingle\nSelf, Spouse/ Live-in partner/ Same sex partner, Son, Daughter,\nFather, Mother, Mother-in-law, Father-in law,  Grand father, Grand\nmother\nUp to SI\nAll day care procedures\nUp to SI\nUp to SI\n50% of SI per year, max. up to 100% of SI;\nshall not reduce in case of claim\nUp to SI, post-hospitalization expense cover for 180 days\nafter discharge\nUp to SI, pre-hospitalization expense cover for 60 days\nprior to hospitalization\nUp to SI\nUp to SI\nUp to SI\nFor SI below `15 lac - up to `10,000\nFor SI `15 lac and above - up to SI\nAvailable for unlimited times for unrelated or same illness"
+        },
+        {
+          "evidence_id": "HDFC-003",
+          "insurer": "HDFC ERGO",
+          "policy": "Optima Secure+",
+          "feature": "Automatic Restore Benefit",
+          "source_document": "HDFC Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Key Coverages",
+          "source_text": "Automatic Restore Bene\ufb01t**\n(Unlimited Times)\nEvery time you claim, your base cover is restored, as many times as\nneeded"
+        },
+        {
+          "evidence_id": "NIVA-001",
+          "insurer": "Niva Bupa",
+          "policy": "ReAssure 2.0",
+          "feature": "ReAssure+ Unlimited Lock & Refill",
+          "source_document": "Niva Bupa Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Product Benefit Table",
+          "source_text": "ReAssure+\nst\n\u2022 1 claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the\n   Base Sum Insured\n\u2022 Pay the premium as per your entry age, till a claim is paid"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S4-01",
+      "claim_text": "Selected Option: Aditya Birla Capital \u2014 Ranked #1 with 100.0% Fit Score (21.0 / 21.0) and winning deterministic tie-break.",
+      "claim_type": "recommendation_reason",
+      "source_output": "pitch_content.json -> Slide 4",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-003A",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-003A",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Claim Protect Out-of-Pocket Expenses",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE CARING ONE",
+          "source_text": "In times of need, it may happen that other health insurance\npolicies may not cover your entire hospital bill as there may be\nsome non-medical out-of-pocket expenses which are generally\nnot paid by insurers, such as gloves, cotton, face masks, etc. Due\nto this, you may end up paying 10-20% of your hospital bills from\nyour own pocket.\nWant to know how Activ One can offer our\ncustomers complete peace of mind\u028e\nWHAT ELSE MAKES ACTIV ONE\nDIFFERENT?\nHEARD OF A HEALTH\nINSURANCE THAT HELPS\nYOU EARN UP TO\nEVERY YEAR EVEN IF YOU\nCLAIM, WITH WHICH YOU\nCAN PAY YOUR$ :\n100% HealthReturnsTM*\nRenewal premiums\n(yes, you can be premium-free!)\nMedical bills\nDiagnostic test costs\nCost for health\nemergencies\nHow can you earn HealthReturnsTM you ask\u028e\nTHAT\u2019S WHY\nWE CREATED A POOL OF\nFOR YOU!\nUNLIMITED\nCOVERAGE\nWhether it is about\ngood health assurance or\na good health insurance,\nunlimited bene\ufb01ts are\nalways a delight!\nWant to know how Activ One can make\nyour coverage limitless+\u028e\nGo ahead and pick your family\u2019s comfort\nover \ufb01nancial worries!\nNO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured.\nScan to meet THE LIMITLESS+ ONE\nGet up to 100% of your hospital\nbills covered with us (up to your\nSum Insured), for a worry-free\nexperience if and when you\nhave to claim!\nScan to meet THE CARING ONE\nfeature comes to your rescue and\ntakes care of 100% out-of-pocket\nexpenses!\nCLAIM PROTECT#\nOur"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S4-02",
+      "claim_text": "Primary Differentiator: Domestic & Worldwide Maternity limits (ABHI-007B) and 100% HealthReturns wellness rewards (ABHI-004).",
+      "claim_type": "recommendation_reason",
+      "source_output": "pitch_content.json -> Slide 4",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-003A",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-003A",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Claim Protect Out-of-Pocket Expenses",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE CARING ONE",
+          "source_text": "In times of need, it may happen that other health insurance\npolicies may not cover your entire hospital bill as there may be\nsome non-medical out-of-pocket expenses which are generally\nnot paid by insurers, such as gloves, cotton, face masks, etc. Due\nto this, you may end up paying 10-20% of your hospital bills from\nyour own pocket.\nWant to know how Activ One can offer our\ncustomers complete peace of mind\u028e\nWHAT ELSE MAKES ACTIV ONE\nDIFFERENT?\nHEARD OF A HEALTH\nINSURANCE THAT HELPS\nYOU EARN UP TO\nEVERY YEAR EVEN IF YOU\nCLAIM, WITH WHICH YOU\nCAN PAY YOUR$ :\n100% HealthReturnsTM*\nRenewal premiums\n(yes, you can be premium-free!)\nMedical bills\nDiagnostic test costs\nCost for health\nemergencies\nHow can you earn HealthReturnsTM you ask\u028e\nTHAT\u2019S WHY\nWE CREATED A POOL OF\nFOR YOU!\nUNLIMITED\nCOVERAGE\nWhether it is about\ngood health assurance or\na good health insurance,\nunlimited bene\ufb01ts are\nalways a delight!\nWant to know how Activ One can make\nyour coverage limitless+\u028e\nGo ahead and pick your family\u2019s comfort\nover \ufb01nancial worries!\nNO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured.\nScan to meet THE LIMITLESS+ ONE\nGet up to 100% of your hospital\nbills covered with us (up to your\nSum Insured), for a worry-free\nexperience if and when you\nhave to claim!\nScan to meet THE CARING ONE\nfeature comes to your rescue and\ntakes care of 100% out-of-pocket\nexpenses!\nCLAIM PROTECT#\nOur"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S4-03",
+      "claim_text": "Key Supporting Features: Super Reload 100% (ABHI-002), No Capping Limitless Cover (ABHI-006), Claim Protect Non-Medical Expenses (ABHI-003A/B).",
+      "claim_type": "recommendation_reason",
+      "source_output": "pitch_content.json -> Slide 4",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-003A",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-003A",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Claim Protect Out-of-Pocket Expenses",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE CARING ONE",
+          "source_text": "In times of need, it may happen that other health insurance\npolicies may not cover your entire hospital bill as there may be\nsome non-medical out-of-pocket expenses which are generally\nnot paid by insurers, such as gloves, cotton, face masks, etc. Due\nto this, you may end up paying 10-20% of your hospital bills from\nyour own pocket.\nWant to know how Activ One can offer our\ncustomers complete peace of mind\u028e\nWHAT ELSE MAKES ACTIV ONE\nDIFFERENT?\nHEARD OF A HEALTH\nINSURANCE THAT HELPS\nYOU EARN UP TO\nEVERY YEAR EVEN IF YOU\nCLAIM, WITH WHICH YOU\nCAN PAY YOUR$ :\n100% HealthReturnsTM*\nRenewal premiums\n(yes, you can be premium-free!)\nMedical bills\nDiagnostic test costs\nCost for health\nemergencies\nHow can you earn HealthReturnsTM you ask\u028e\nTHAT\u2019S WHY\nWE CREATED A POOL OF\nFOR YOU!\nUNLIMITED\nCOVERAGE\nWhether it is about\ngood health assurance or\na good health insurance,\nunlimited bene\ufb01ts are\nalways a delight!\nWant to know how Activ One can make\nyour coverage limitless+\u028e\nGo ahead and pick your family\u2019s comfort\nover \ufb01nancial worries!\nNO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured.\nScan to meet THE LIMITLESS+ ONE\nGet up to 100% of your hospital\nbills covered with us (up to your\nSum Insured), for a worry-free\nexperience if and when you\nhave to claim!\nScan to meet THE CARING ONE\nfeature comes to your rescue and\ntakes care of 100% out-of-pocket\nexpenses!\nCLAIM PROTECT#\nOur"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S4-04",
+      "claim_text": "Network & Cashless: Access to wide cashless network hospitals across India (ABHI-006).",
+      "claim_type": "recommendation_reason",
+      "source_output": "pitch_content.json -> Slide 4",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-003A",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-003A",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Claim Protect Out-of-Pocket Expenses",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE CARING ONE",
+          "source_text": "In times of need, it may happen that other health insurance\npolicies may not cover your entire hospital bill as there may be\nsome non-medical out-of-pocket expenses which are generally\nnot paid by insurers, such as gloves, cotton, face masks, etc. Due\nto this, you may end up paying 10-20% of your hospital bills from\nyour own pocket.\nWant to know how Activ One can offer our\ncustomers complete peace of mind\u028e\nWHAT ELSE MAKES ACTIV ONE\nDIFFERENT?\nHEARD OF A HEALTH\nINSURANCE THAT HELPS\nYOU EARN UP TO\nEVERY YEAR EVEN IF YOU\nCLAIM, WITH WHICH YOU\nCAN PAY YOUR$ :\n100% HealthReturnsTM*\nRenewal premiums\n(yes, you can be premium-free!)\nMedical bills\nDiagnostic test costs\nCost for health\nemergencies\nHow can you earn HealthReturnsTM you ask\u028e\nTHAT\u2019S WHY\nWE CREATED A POOL OF\nFOR YOU!\nUNLIMITED\nCOVERAGE\nWhether it is about\ngood health assurance or\na good health insurance,\nunlimited bene\ufb01ts are\nalways a delight!\nWant to know how Activ One can make\nyour coverage limitless+\u028e\nGo ahead and pick your family\u2019s comfort\nover \ufb01nancial worries!\nNO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured.\nScan to meet THE LIMITLESS+ ONE\nGet up to 100% of your hospital\nbills covered with us (up to your\nSum Insured), for a worry-free\nexperience if and when you\nhave to claim!\nScan to meet THE CARING ONE\nfeature comes to your rescue and\ntakes care of 100% out-of-pocket\nexpenses!\nCLAIM PROTECT#\nOur"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S5-01",
+      "claim_text": "Claim Audit Results: 100% of material claims audited and verified against canonical policy evidence matrix.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 5",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B",
+        "CARE-002"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S5-02",
+      "claim_text": "Verbatim Provenance: Every policy feature mapped to canonical evidence matrix records (36 total) with zero fact manufacturing.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 5",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B",
+        "CARE-002"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S5-03",
+      "claim_text": "Source Evidence Citations: Evidence IDs ABHI-002 (p.1), ABHI-004 (p.1), ABHI-006 (p.2), ABHI-007B (p.2), CARE-002 (p.2).",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 5",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B",
+        "CARE-002"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-PTC-S5-04",
+      "claim_text": "Assumptions & Governance: Standard retail brochure terms compared; corporate group negotiation offers further custom limits.",
+      "claim_type": "benefit",
+      "source_output": "pitch_content.json -> Slide 5",
+      "evidence_ids": [
+        "ABHI-002",
+        "ABHI-004",
+        "ABHI-006",
+        "ABHI-007B",
+        "CARE-002"
+      ],
+      "audit_status": "PASS",
+      "audit_reason": "100% verified against canonical evidence with exact provenance.",
+      "numerical_check_passed": true,
+      "qualifier_check_passed": true,
+      "cited_evidence_details": [
+        {
+          "evidence_id": "ABHI-002",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Super Reload",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "THE FULFILLING ONE",
+          "source_text": "With Activ One, you will never run out of\nyour health insurance coverage, as we will\nre\ufb01ll your cover up to 100% of your Base\nSum Insured unlimited times in a policy year.\nSUM INSURED EXHAUSTED?\nSUPER RELOAD~\nFOR YOUR NEXT CLAIM\nREFILLS IT\nTO 100%"
+        },
+        {
+          "evidence_id": "ABHI-004",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "100% HealthReturns",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE REWARDING ONE",
+          "source_text": "Download our\nActiv Health app\nSync app and walk 10,000 steps a day\n or burn 300 calories per session\nTadaa! You just earned\nHealthReturnsTM for yourself!\nScan to meet THE REWARDING ONE\nWITH ACTIV ONE, STAY ACTIVE\n& HEALTHY TO EARN UP TO\n100% HealthReturnsTM*"
+        },
+        {
+          "evidence_id": "ABHI-006",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "No Capping Limitless Cover",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "THE LIMITLESS+ ONE",
+          "source_text": "NO CAPPING^\non hospitalization expenses, procedures &\nbene\ufb01ts such as room rent, ICU charges,\nroad ambulance cover, day care treatments,\norgan donor expenses, and a lot more, up to\nyour Base Sum Insured."
+        },
+        {
+          "evidence_id": "ABHI-007B",
+          "insurer": "Aditya Birla Capital",
+          "policy": "Activ One",
+          "feature": "Domestic & Worldwide Maternity Limits",
+          "source_document": "ABHI Product Brochure.pdf",
+          "source_page": 2,
+          "source_section": "Footnote Rules",
+          "source_text": "%For BSI INR 50 Lacs and 75 Lacs -  Domestic\nMaternity up to INR 1 Lac; For BSI INR 1 Cr and Above - WW Maternity up to of INR 2 Lacs."
+        },
+        {
+          "evidence_id": "CARE-002",
+          "insurer": "Care Health Insurance",
+          "policy": "Care Supreme",
+          "feature": "Pre & Post Hospitalization Medical Expenses",
+          "source_document": "Care Health Product Brochure.pdf",
+          "source_page": 1,
+          "source_section": "Key Highlights",
+          "source_text": "Up to 60 days pre-hospitalization and 180 days post-hospitalization coverage"
+        }
+      ]
+    }
+  ],
+  "audit_summary": "Audited 25 material claims: 25 PASS, 0 REVIEW, 0 FAIL.",
+  "overall_status": "PASSED"
+}

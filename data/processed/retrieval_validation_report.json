@@ -1,0 +1,17 @@
+{
+  "matrix_record_count": 36,
+  "indexed_record_count": 36,
+  "excluded_record_count": 0,
+  "excluded_by_status": {
+    "rejected": 0,
+    "other": 0
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "index_type": "FAISS_IndexFlatIP",
+  "dimension": 384,
+  "test_count": 13,
+  "passed_tests": 13,
+  "failed_tests": 0,
+  "validation_status": "PASSED",
+  "generated_at": "2026-09-26T20:03:48.427722+00:00"
+}

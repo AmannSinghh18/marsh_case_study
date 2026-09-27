@@ -1,0 +1,133 @@
+{
+  "recommended_policy": "Aditya Birla Capital \u2014 Activ Health",
+  "insurer": "Aditya Birla Capital",
+  "policy": "Activ Health",
+  "recommendation_summary": "Aditya Birla Capital (Activ Health) is selected for TechCorp Solutions because it achieves a 100.0% fit score (21.0/21.0) across all defined high-priority corporate requirements, winning the deterministic tie-break evaluation. It provides explicit domestic and worldwide maternity limits (ABHI-007B), 100% Super Reload sum insured (ABHI-002), No Capping Limitless Cover (ABHI-006), 100% HealthReturns active wellness rewards (ABHI-004), and Claim Protect non-medical expense cover (ABHI-003A/B).",
+  "requirement_scores": {
+    "REQ-001": 5.0,
+    "REQ-002": 5.0,
+    "REQ-003": 3.0,
+    "REQ-004": 3.0,
+    "REQ-005": 3.0,
+    "REQ-006": 1.0,
+    "REQ-007": 1.0
+  },
+  "total_fit_score": 21.0,
+  "max_possible_score": 21.0,
+  "percentage_score": 100.0,
+  "key_strengths": [
+    "Domestic & Worldwide Maternity limits (ABHI-007B)",
+    "100% HealthReturns wellness program (ABHI-004)",
+    "Super Reload 100% (ABHI-002)"
+  ],
+  "key_tradeoffs": [
+    "Requires active tracking via Activ Health app for wellness returns"
+  ],
+  "key_limitations": [
+    "Subject to specific tier pricing zones"
+  ],
+  "assumptions": [
+    {
+      "assumption_id": "ASSUMP-001",
+      "assumption": "Corporate Group Policy customization allows negotiation of standard individual waiting periods for maternity.",
+      "why_needed": "Brochures present individual retail terms; corporate group negotiations may customize these.",
+      "effect_on_analysis": "Scoring compares standard brochure terms deterministically while highlighting corporate policy negotiation potential.",
+      "confidence": "medium"
+    }
+  ],
+  "evidence_ids": [
+    "ABHI-002",
+    "ABHI-003A",
+    "ABHI-004",
+    "ABHI-006",
+    "ABHI-007B"
+  ],
+  "confidence": "high",
+  "decision_trace": [
+    {
+      "step": 1,
+      "action": "Extract Client Case Profile",
+      "output": "Identified TechCorp Solutions workforce demographics (500 employees, avg age 32, tech professionals with young families)."
+    },
+    {
+      "step": 2,
+      "action": "Classify Business & Employee Risk Requirements",
+      "output": "Formulated 7 classified requirements (2 hard requirements, 3 important requirements, 2 preferences)."
+    },
+    {
+      "step": 3,
+      "action": "Execute Evidence Matching & Fit Scoring",
+      "output": "Evaluated all 4 insurers against 36 canonical evidence records using transparent weighted scoring (Max score: 21.0)."
+    },
+    {
+      "step": 4,
+      "action": "Execute Transparent Tie-Break Hierarchy",
+      "output": "Tied at 21.0/21.0 score between Aditya Birla Capital and Care Health Insurance. Evaluated 5-step tie-break hierarchy: 1) Total Score (21.0 vs 21.0), 2) Hard Req Score (10.0 vs 10.0), 3) Important Req Score (9.0 vs 9.0), 4) Direct Evidence Specificity (2 vs 2), 5) Deterministic Insurer Alphabetical Order ('Aditya Birla Capital' < 'Care Health Insurance'). Final Rank 1 assigned to Aditya Birla Capital \u2014 Activ Health."
+    }
+  ],
+  "alternative_policy_comparison": [
+    {
+      "rank": 1,
+      "insurer": "Aditya Birla Capital",
+      "policy": "Activ Health",
+      "total_fit_score": 21.0,
+      "percentage_score": 100.0,
+      "key_strengths": [
+        "Domestic & Worldwide Maternity limits (ABHI-007B)",
+        "100% HealthReturns wellness program (ABHI-004)",
+        "Super Reload 100% (ABHI-002)"
+      ],
+      "key_limitations": [
+        "Subject to specific tier pricing zones"
+      ],
+      "maternity_match": "MATCH"
+    },
+    {
+      "rank": 2,
+      "insurer": "Care Health Insurance",
+      "policy": "Care",
+      "total_fit_score": 21.0,
+      "percentage_score": 100.0,
+      "key_strengths": [
+        "60 days pre & 180 days post hospitalization reimbursement (CARE-002)",
+        "Unlimited Automatic Recharge (CARE-003)",
+        "Access to wide network hospitals"
+      ],
+      "key_limitations": [
+        "OPD/maternity benefits require add-on rider attachment"
+      ],
+      "maternity_match": "MATCH"
+    },
+    {
+      "rank": 3,
+      "insurer": "HDFC ERGO",
+      "policy": "Optima Secure",
+      "total_fit_score": 18.5,
+      "percentage_score": 88.1,
+      "key_strengths": [
+        "Protect Benefit no room rent capping (HDFC-004)",
+        "100% Restore benefit (HDFC-003)",
+        "10,000+ cashless hospitals"
+      ],
+      "key_limitations": [
+        "Maternity benefit requires optional rider purchase"
+      ],
+      "maternity_match": "PARTIAL"
+    },
+    {
+      "rank": 4,
+      "insurer": "Niva Bupa",
+      "policy": "ReAssure 2.0",
+      "total_fit_score": 16.0,
+      "percentage_score": 76.2,
+      "key_strengths": [
+        "ReAssure+ Unlimited Lock & Refill feature (NIVA-001)",
+        "10,000+ network hospital footprint (NIVA-007B)"
+      ],
+      "key_limitations": [
+        "No explicit maternity coverage clause in brochure evidence corpus"
+      ],
+      "maternity_match": "NO_EVIDENCE"
+    }
+  ]
+}
